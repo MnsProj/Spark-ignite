@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\MSamantara\AppData\Local\Temp\testng-eclipse--1196048487\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Tests.VirtualMechanic" hash-for-method="Auxilary_health_displaying">Auxilary_health_displaying</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Tests.VirtualMechanic" hash-for-method="Battery_health_displaying">Battery_health_displaying</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Tests.VirtualMechanic" hash-for-method="Current_diagnostics_display">Current_diagnostics_display</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Tests.VirtualMechanic" hash-for-method="Current_diagnostics_tab_clickable">Current_diagnostics_tab_clickable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Tests.VirtualMechanic" hash-for-method="Electrical_System_health_displaying">Electrical_System_health_displaying</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Tests.VirtualMechanic" hash-for-method="Engine_health_displaying">Engine_health_displaying</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Tests.VirtualMechanic" hash-for-method="Gearbox_health_displaying">Gearbox_health_displaying</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Tests.VirtualMechanic" hash-for-method="Virtual_Mechanic_link_status">Virtual_Mechanic_link_status</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Tests.VirtualMechanic" hash-for-method="faults_and_warnings">faults_and_warnings</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Tests.VirtualMechanic" hash-for-method="healthy_areas">healthy_areas</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Tests.VirtualMechanic" hash-for-method="history_displaying">history_displaying</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Tests.VirtualMechanic" hash-for-method="history_of_faults_text_displaying">history_of_faults_text_displaying</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Tests.VirtualMechanic" hash-for-method="history_tab_clickable">history_tab_clickable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Tests.VirtualMechanic</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Auxilary_health_displaying">
+                  </a> <!-- Auxilary_health_displaying -->
+                  <span class="method-name">Auxilary_health_displaying</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Battery_health_displaying">
+                  </a> <!-- Battery_health_displaying -->
+                  <span class="method-name">Battery_health_displaying</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Current_diagnostics_display">
+                  </a> <!-- Current_diagnostics_display -->
+                  <span class="method-name">Current_diagnostics_display</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Current_diagnostics_tab_clickable">
+                  </a> <!-- Current_diagnostics_tab_clickable -->
+                  <span class="method-name">Current_diagnostics_tab_clickable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Electrical_System_health_displaying">
+                  </a> <!-- Electrical_System_health_displaying -->
+                  <span class="method-name">Electrical_System_health_displaying</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Engine_health_displaying">
+                  </a> <!-- Engine_health_displaying -->
+                  <span class="method-name">Engine_health_displaying</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Gearbox_health_displaying">
+                  </a> <!-- Gearbox_health_displaying -->
+                  <span class="method-name">Gearbox_health_displaying</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Virtual_Mechanic_link_status">
+                  </a> <!-- Virtual_Mechanic_link_status -->
+                  <span class="method-name">Virtual_Mechanic_link_status</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="faults_and_warnings">
+                  </a> <!-- faults_and_warnings -->
+                  <span class="method-name">faults_and_warnings</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="healthy_areas">
+                  </a> <!-- healthy_areas -->
+                  <span class="method-name">healthy_areas</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="history_displaying">
+                  </a> <!-- history_displaying -->
+                  <span class="method-name">history_displaying</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="history_of_faults_text_displaying">
+                  </a> <!-- history_of_faults_text_displaying -->
+                  <span class="method-name">history_of_faults_text_displaying</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="history_tab_clickable">
+                  </a> <!-- history_tab_clickable -->
+                  <span class="method-name">history_tab_clickable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\MSamantara\AppData\Local\Temp\testng-eclipse--1196048487\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Tests.VirtualMechanic&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Virtual_Mechanic_link_status')
+data.setCell(0, 2, 'Tests.VirtualMechanic')
+data.setCell(0, 3, 6456);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Current_diagnostics_display')
+data.setCell(1, 2, 'Tests.VirtualMechanic')
+data.setCell(1, 3, 1595);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'history_of_faults_text_displaying')
+data.setCell(2, 2, 'Tests.VirtualMechanic')
+data.setCell(2, 3, 140);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Gearbox_health_displaying')
+data.setCell(3, 2, 'Tests.VirtualMechanic')
+data.setCell(3, 3, 65);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'healthy_areas')
+data.setCell(4, 2, 'Tests.VirtualMechanic')
+data.setCell(4, 3, 63);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Current_diagnostics_tab_clickable')
+data.setCell(5, 2, 'Tests.VirtualMechanic')
+data.setCell(5, 3, 60);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Electrical_System_health_displaying')
+data.setCell(6, 2, 'Tests.VirtualMechanic')
+data.setCell(6, 3, 59);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'faults_and_warnings')
+data.setCell(7, 2, 'Tests.VirtualMechanic')
+data.setCell(7, 3, 51);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Battery_health_displaying')
+data.setCell(8, 2, 'Tests.VirtualMechanic')
+data.setCell(8, 3, 47);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'history_displaying')
+data.setCell(9, 2, 'Tests.VirtualMechanic')
+data.setCell(9, 3, 47);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Auxilary_health_displaying')
+data.setCell(10, 2, 'Tests.VirtualMechanic')
+data.setCell(10, 3, 47);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Engine_health_displaying')
+data.setCell(11, 2, 'Tests.VirtualMechanic')
+data.setCell(11, 3, 46);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'history_tab_clickable')
+data.setCell(12, 2, 'Tests.VirtualMechanic')
+data.setCell(12, 3, 31);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.VirtualMechanic</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Virtual_Mechanic_link_status</span>
+                <span class="method-start">19365 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Current_diagnostics_display</span>
+                <span class="method-start">25823 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Current_diagnostics_tab_clickable</span>
+                <span class="method-start">27419 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">faults_and_warnings</span>
+                <span class="method-start">27479 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">healthy_areas</span>
+                <span class="method-start">27530 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Battery_health_displaying</span>
+                <span class="method-start">27593 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Engine_health_displaying</span>
+                <span class="method-start">27640 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Electrical_System_health_displaying</span>
+                <span class="method-start">27686 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Gearbox_health_displaying</span>
+                <span class="method-start">27745 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Auxilary_health_displaying</span>
+                <span class="method-start">27810 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">history_displaying</span>
+                <span class="method-start">27857 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">history_tab_clickable</span>
+                <span class="method-start">27904 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">history_of_faults_text_displaying</span>
+                <span class="method-start">27935 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">28078 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

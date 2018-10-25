@@ -1,0 +1,18 @@
+[1006/170231.868:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[1006/170231.992:ERROR:file_io.cc(89)] ReadExactly: expected 40, observed 0
+[1006/171928.718:ERROR:file_io_win.cc(161)] CreateFile C:\Users\MSAMAN~1\AppData\Local\Temp\scoped_dir9804_5763\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[1006/171928.733:ERROR:file_io_win.cc(170)] CreateFile C:\Users\MSAMAN~1\AppData\Local\Temp\scoped_dir9804_5763\Crashpad\reports\a8737a8c-fabd-42da-b17a-7b5a943a4000.dmp: The system cannot find the path specified. (0x3)
+[1006/171928.733:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[1009/192247.418:ERROR:file_io_win.cc(161)] CreateFile C:\Users\MSAMAN~1\AppData\Local\Temp\scoped_dir6356_7998\Crashpad\settings.dat: The system cannot find the file specified. (0x2)
+[1009/193657.952:ERROR:file_io_win.cc(161)] CreateFile C:\Users\MSAMAN~1\AppData\Local\Temp\scoped_dir6732_28238\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[1009/193657.959:ERROR:file_io_win.cc(170)] CreateFile C:\Users\MSAMAN~1\AppData\Local\Temp\scoped_dir6732_28238\Crashpad\reports\1df6a209-4313-44ab-b17b-2ede0669eea5.dmp: The system cannot find the path specified. (0x3)
+[1009/193657.959:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[1009/193858.005:ERROR:file_io_win.cc(161)] CreateFile C:\Users\MSAMAN~1\AppData\Local\Temp\scoped_dir10408_10220\Crashpad\settings.dat: The system cannot find the file specified. (0x2)
+[1011/202230.028:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1011/202230.049:ERROR:exception_snapshot_win.cc(88)] thread ID 11208 not found in process
+[1011/202230.049:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[1011/204520.149:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[1011/204520.158:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[1011/204520.158:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7fefa7f54d0 of 12 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[1011/204520.158:WARNING:process_snapshot_win.cc(69)] ReadMemory ExceptionInformation failed
+[1011/204520.158:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)

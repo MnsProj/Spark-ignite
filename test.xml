@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Parallel test suite" parallel="methods" thread-count="7" preserve-order="false">
+  <test name="Sanity Test" >
+    <classes>
+       <class name="Tests.login_logout"/>
+       <class name="Tests.loginpage"/>
+       <class name="Tests.Loginbrokenlinks"/>
+       <class name="Tests.DashBoardbrokenlinks"/>
+        <class name="Tests.HomeScreen"/>
+       <class name="Tests.VirtualMechanic"/>
+       <class name="Tests.Trips"/>
+      
+       
+       
+      
+    </classes>
+ </test>
+</suite>

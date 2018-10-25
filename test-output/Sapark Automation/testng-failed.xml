@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Sapark Automation]">
+  <test thread-count="5" name="Sanity Test(failed)">
+    <classes>
+      <class name="Tests.login_logout">
+        <methods>
+          <include name="AfterLogout_click_getstarted"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- Tests.login_logout -->
+    </classes>
+  </test> <!-- Sanity Test(failed) -->
+</suite> <!-- Failed suite [Sapark Automation] -->
