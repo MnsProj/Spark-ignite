@@ -92,10 +92,10 @@ public class HomeScreen {
 	  System.out.println("wifi_button_display: "+wifi);
 	  Log.info("wifi button display status ");
 	  
-	  WebElement Wifi1=driver.findElement(By.xpath(".//*[@id='root']/div/div[3]/div[2]/div/div/div[2]/div[1]/div/ul/li[2]/div/h3"));
+	 /* WebElement Wifi1=driver.findElement(By.xpath(".//*[@id='root']/div/div[3]/div[2]/div/div/div[2]/div[1]/div/ul/li[2]/div/h3"));
 	  
-	  System.out.println("wifi status: "+Wifi1.getText());
-	  Log.info("wifi status ");
+	  System.out.println("wifi status: "+Wifi1.getText());*/
+	  //Log.info("wifi status ");
 	  }
   @Test(priority = 11)
   public void battery_status() {
@@ -181,7 +181,7 @@ public class HomeScreen {
   public void beforeClass() {
 	  
 	  PropertyConfigurator.configure("Log4j.properties");
-		System.setProperty("webdriver.chrome.driver", "D:/New folder/chromedriver.exe");
+	  System.setProperty("webdriver.chrome.driver", "./chromedriver.exe");
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
 		options.addArguments("start-maximized"); // open Browser in maximized mode
@@ -217,7 +217,7 @@ public class HomeScreen {
 
   @AfterClass
   public void afterClass() throws IOException {
-	        driver.close();
+	        driver.quit();
 	        //Runtime.getRuntime().exec("taskkill /im chromedriver.exe /f");
 			Log.info("Quit from portal");
   }

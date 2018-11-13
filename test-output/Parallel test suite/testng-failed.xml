@@ -10,27 +10,6 @@
           <include name="beforeClass"/>
         </methods>
       </class> <!-- Tests.login_logout -->
-      <class name="Tests.VirtualMechanic">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="Auxilary_health_displaying"/>
-          <include name="afterClass"/>
-        </methods>
-      </class> <!-- Tests.VirtualMechanic -->
-      <class name="Tests.HomeScreen">
-        <methods>
-          <include name="afterClass"/>
-          <include name="wifi_button_display"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- Tests.HomeScreen -->
-      <class name="Tests.Trips">
-        <methods>
-          <include name="Last_trip_Driver_score"/>
-          <include name="afterClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- Tests.Trips -->
     </classes>
   </test> <!-- Sanity Test(failed) -->
 </suite> <!-- Failed suite [Parallel test suite] -->

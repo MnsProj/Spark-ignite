@@ -1,73 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28347" started-at="2018-10-25T12:25:35Z" finished-at="2018-10-25T12:26:04Z">
+  <suite name="Default suite" duration-ms="18211" started-at="2018-11-13T09:34:59Z" finished-at="2018-11-13T09:35:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="28347" started-at="2018-10-25T12:25:35Z" finished-at="2018-10-25T12:26:04Z">
-      <class name="Tests.VirtualMechanic">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Tests.VirtualMechanic@704921a5]" name="beforeClass" is-config="true" duration-ms="19352" started-at="2018-10-25T12:25:35Z" finished-at="2018-10-25T12:25:55Z">
+    <test name="Default test" duration-ms="18211" started-at="2018-11-13T09:34:59Z" finished-at="2018-11-13T09:35:17Z">
+      <class name="Tests.loginpage">
+        <test-method status="PASS" signature="before()[pri:0, instance:Tests.loginpage@727803de]" name="before" is-config="true" duration-ms="9806" started-at="2018-11-13T09:34:59Z" finished-at="2018-11-13T09:35:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="Virtual_Mechanic_link_status()[pri:1, instance:Tests.VirtualMechanic@704921a5]" name="Virtual_Mechanic_link_status" duration-ms="6456" started-at="2018-10-25T12:25:55Z" finished-at="2018-10-25T12:26:01Z">
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="Entering_Login_Page()[pri:0, instance:Tests.loginpage@727803de]" name="Entering_Login_Page" duration-ms="5094" started-at="2018-11-13T09:35:09Z" finished-at="2018-11-13T09:35:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Virtual_Mechanic_link_status -->
-        <test-method status="PASS" signature="Current_diagnostics_display()[pri:2, instance:Tests.VirtualMechanic@704921a5]" name="Current_diagnostics_display" duration-ms="1595" started-at="2018-10-25T12:26:01Z" finished-at="2018-10-25T12:26:03Z">
+        </test-method> <!-- Entering_Login_Page -->
+        <test-method status="PASS" signature="Harman_logo_visibility()[pri:1, instance:Tests.loginpage@727803de]" name="Harman_logo_visibility" duration-ms="69" started-at="2018-11-13T09:35:14Z" finished-at="2018-11-13T09:35:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Current_diagnostics_display -->
-        <test-method status="PASS" signature="Current_diagnostics_tab_clickable()[pri:3, instance:Tests.VirtualMechanic@704921a5]" name="Current_diagnostics_tab_clickable" duration-ms="60" started-at="2018-10-25T12:26:03Z" finished-at="2018-10-25T12:26:03Z">
+        </test-method> <!-- Harman_logo_visibility -->
+        <test-method status="PASS" signature="Harman_Text_visibility()[pri:2, instance:Tests.loginpage@727803de]" name="Harman_Text_visibility" duration-ms="54" started-at="2018-11-13T09:35:14Z" finished-at="2018-11-13T09:35:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Current_diagnostics_tab_clickable -->
-        <test-method status="PASS" signature="faults_and_warnings()[pri:4, instance:Tests.VirtualMechanic@704921a5]" name="faults_and_warnings" duration-ms="51" started-at="2018-10-25T12:26:03Z" finished-at="2018-10-25T12:26:03Z">
+        </test-method> <!-- Harman_Text_visibility -->
+        <test-method status="PASS" signature="Forgot_Password_link_Status()[pri:3, instance:Tests.loginpage@727803de]" name="Forgot_Password_link_Status" duration-ms="47" started-at="2018-11-13T09:35:14Z" finished-at="2018-11-13T09:35:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- faults_and_warnings -->
-        <test-method status="PASS" signature="healthy_areas()[pri:5, instance:Tests.VirtualMechanic@704921a5]" name="healthy_areas" duration-ms="63" started-at="2018-10-25T12:26:03Z" finished-at="2018-10-25T12:26:03Z">
+        </test-method> <!-- Forgot_Password_link_Status -->
+        <test-method status="PASS" signature="Loginbutton_status_before_Enter_user_pwd()[pri:4, instance:Tests.loginpage@727803de]" name="Loginbutton_status_before_Enter_user_pwd" duration-ms="47" started-at="2018-11-13T09:35:14Z" finished-at="2018-11-13T09:35:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- healthy_areas -->
-        <test-method status="PASS" signature="Battery_health_displaying()[pri:6, instance:Tests.VirtualMechanic@704921a5]" name="Battery_health_displaying" duration-ms="47" started-at="2018-10-25T12:26:03Z" finished-at="2018-10-25T12:26:03Z">
+        </test-method> <!-- Loginbutton_status_before_Enter_user_pwd -->
+        <test-method status="PASS" signature="Signup_link_status()[pri:5, instance:Tests.loginpage@727803de]" name="Signup_link_status" duration-ms="46" started-at="2018-11-13T09:35:14Z" finished-at="2018-11-13T09:35:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Battery_health_displaying -->
-        <test-method status="PASS" signature="Engine_health_displaying()[pri:7, instance:Tests.VirtualMechanic@704921a5]" name="Engine_health_displaying" duration-ms="46" started-at="2018-10-25T12:26:03Z" finished-at="2018-10-25T12:26:03Z">
+        </test-method> <!-- Signup_link_status -->
+        <test-method status="PASS" signature="Login_validation()[pri:6, instance:Tests.loginpage@727803de]" name="Login_validation" duration-ms="1790" started-at="2018-11-13T09:35:14Z" finished-at="2018-11-13T09:35:16Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Engine_health_displaying -->
-        <test-method status="PASS" signature="Electrical_System_health_displaying()[pri:8, instance:Tests.VirtualMechanic@704921a5]" name="Electrical_System_health_displaying" duration-ms="59" started-at="2018-10-25T12:26:03Z" finished-at="2018-10-25T12:26:03Z">
+        </test-method> <!-- Login_validation -->
+        <test-method status="PASS" signature="after()[pri:0, instance:Tests.loginpage@727803de]" name="after" is-config="true" duration-ms="1206" started-at="2018-11-13T09:35:16Z" finished-at="2018-11-13T09:35:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Electrical_System_health_displaying -->
-        <test-method status="PASS" signature="Gearbox_health_displaying()[pri:9, instance:Tests.VirtualMechanic@704921a5]" name="Gearbox_health_displaying" duration-ms="65" started-at="2018-10-25T12:26:03Z" finished-at="2018-10-25T12:26:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Gearbox_health_displaying -->
-        <test-method status="PASS" signature="Auxilary_health_displaying()[pri:10, instance:Tests.VirtualMechanic@704921a5]" name="Auxilary_health_displaying" duration-ms="47" started-at="2018-10-25T12:26:03Z" finished-at="2018-10-25T12:26:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Auxilary_health_displaying -->
-        <test-method status="PASS" signature="history_displaying()[pri:11, instance:Tests.VirtualMechanic@704921a5]" name="history_displaying" duration-ms="47" started-at="2018-10-25T12:26:03Z" finished-at="2018-10-25T12:26:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- history_displaying -->
-        <test-method status="PASS" signature="history_tab_clickable()[pri:12, instance:Tests.VirtualMechanic@704921a5]" name="history_tab_clickable" duration-ms="31" started-at="2018-10-25T12:26:03Z" finished-at="2018-10-25T12:26:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- history_tab_clickable -->
-        <test-method status="PASS" signature="history_of_faults_text_displaying()[pri:13, instance:Tests.VirtualMechanic@704921a5]" name="history_of_faults_text_displaying" duration-ms="140" started-at="2018-10-25T12:26:03Z" finished-at="2018-10-25T12:26:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- history_of_faults_text_displaying -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:Tests.VirtualMechanic@704921a5]" name="afterClass" is-config="true" duration-ms="253" started-at="2018-10-25T12:26:03Z" finished-at="2018-10-25T12:26:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- Tests.VirtualMechanic -->
+        </test-method> <!-- after -->
+      </class> <!-- Tests.loginpage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

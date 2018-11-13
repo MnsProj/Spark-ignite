@@ -78,7 +78,7 @@ import org.testng.annotations.AfterClass;
   @BeforeClass
   public void beforeClass() {
 	PropertyConfigurator.configure("Log4j.properties");
-	System.setProperty("webdriver.chrome.driver", "D:/New folder/chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver", "./chromedriver.exe");
 	ChromeOptions options = new ChromeOptions();
 	options.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
 	options.addArguments("start-maximized"); // open Browser in maximized mode

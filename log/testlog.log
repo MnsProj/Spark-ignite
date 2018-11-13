@@ -5003,3 +5003,538 @@
 2018-10-25 17:56:03,802 - loginpage -INFO - Select Tab history
 2018-10-25 17:56:03,852 - loginpage -INFO - history of faults text displaying
 2018-10-25 17:56:04,108 - loginpage -INFO - Quit from portal
+2018-10-25 18:46:01,478 - loginpage -INFO - Open browser
+2018-10-25 18:46:01,590 - loginpage -INFO - Open browser
+2018-10-25 18:46:01,478 - loginpage -INFO - Open browser
+2018-10-25 18:46:02,490 - loginpage -INFO - Open browser
+2018-10-25 18:46:02,537 - loginpage -INFO - Open browser
+2018-10-25 18:46:11,334 - loginpage -INFO - Going to Home Page
+2018-10-25 18:46:11,470 - loginpage -INFO - Going to Home Page
+2018-10-25 18:46:11,477 - loginpage -INFO - Going to Home Page
+2018-10-25 18:46:11,482 - loginpage -INFO - Going to Home Page
+2018-10-25 18:46:11,820 - loginpage -INFO - Going to Home Page
+2018-10-25 18:46:29,077 - loginpage -INFO - Going to Login Page
+2018-10-25 18:46:31,110 - loginpage -INFO - list of links
+2018-10-25 18:46:31,209 - loginpage -INFO - Going to Login Page
+2018-10-25 18:46:31,251 - loginpage -INFO - Going to Login Page
+2018-10-25 18:46:31,449 - loginpage -INFO - Going to Login Page
+2018-10-25 18:46:31,489 - loginpage -INFO - Entering Login Page
+2018-10-25 18:46:31,969 - loginpage -INFO - enter username
+2018-10-25 18:46:31,981 - loginpage -INFO - enter username
+2018-10-25 18:46:31,991 - loginpage -INFO - enter username
+2018-10-25 18:46:32,161 - loginpage -INFO - enter password
+2018-10-25 18:46:32,331 - loginpage -INFO - enter password
+2018-10-25 18:46:32,393 - loginpage -INFO - enter password
+2018-10-25 18:46:37,023 - loginpage -INFO - login button
+2018-10-25 18:46:37,041 - loginpage -INFO - login button
+2018-10-25 18:46:37,084 - loginpage -INFO - login button
+2018-10-25 18:46:45,568 - loginpage -INFO - Harmanlogo display in main screen
+2018-10-25 18:46:45,581 - loginpage -INFO - list of links
+2018-10-25 18:46:48,901 - loginpage -INFO - verify active link
+2018-10-25 18:46:48,901 - loginpage -INFO - verify active link
+2018-10-25 18:46:49,605 - loginpage -INFO - verify active link
+2018-10-25 18:46:50,118 - loginpage -INFO - verify active link
+2018-10-25 18:46:50,134 - loginpage -INFO - verify active link
+2018-10-25 18:46:50,788 - loginpage -INFO - verify active link
+2018-10-25 18:46:50,996 - loginpage -INFO - verify active link
+2018-10-25 18:46:51,385 - loginpage -INFO - verify active link
+2018-10-25 18:46:51,922 - loginpage -INFO - verify active link
+2018-10-25 18:46:52,096 - loginpage -INFO - verify active link
+2018-10-25 18:46:52,716 - loginpage -INFO - verify active link
+2018-10-25 18:46:53,483 - loginpage -INFO - Quit from portal
+2018-10-25 18:46:53,498 - loginpage -INFO - verify active link
+2018-10-25 18:46:54,035 - loginpage -INFO - verify active link
+2018-10-25 18:46:54,549 - loginpage -INFO - verify active link
+2018-10-25 18:46:55,203 - loginpage -INFO - verify active link
+2018-10-25 18:46:55,962 - loginpage -INFO - verify active link
+2018-10-25 18:46:56,506 - loginpage -INFO - verify active link
+2018-10-25 18:46:57,865 - loginpage -INFO - Quit from portal
+2018-10-25 18:46:58,053 - loginpage -INFO - Vehicle dashboard link status 
+2018-10-25 18:46:58,084 - loginpage -INFO - Harman logo visibility
+2018-10-25 18:46:58,128 - loginpage -INFO - click account button
+2018-10-25 18:47:12,336 - loginpage -INFO - Open browser
+2018-10-25 18:47:12,367 - loginpage -INFO - Open browser
+2018-10-25 18:47:14,952 - loginpage -INFO - click signout button
+2018-10-25 18:47:18,868 - loginpage -INFO - Going to Home Page
+2018-10-25 18:47:21,579 - loginpage -INFO - Going to Home Page
+2018-10-25 18:47:27,728 - loginpage -INFO - Going to Login Page
+2018-10-25 18:47:27,886 - loginpage -INFO - enter username
+2018-10-25 18:47:28,059 - loginpage -INFO - enter password
+2018-10-25 18:47:29,611 - loginpage -INFO - login button
+2018-10-25 18:47:30,244 - loginpage -INFO - Going to Login Page
+2018-10-25 18:47:30,619 - loginpage -INFO - enter username
+2018-10-25 18:47:31,034 - loginpage -INFO - enter password
+2018-10-25 18:47:32,442 - loginpage -INFO - login button
+2018-10-25 18:47:35,859 - loginpage -INFO - Trips link status 
+2018-10-25 18:47:35,995 - loginpage -INFO - Enter Trips 
+2018-10-25 18:47:38,161 - loginpage -INFO - Virtual Mechanic link status 
+2018-10-25 18:47:38,304 - loginpage -INFO - Enter virtual Mechanic
+2018-10-25 18:47:38,532 - loginpage -INFO - harman text visibility
+2018-10-25 18:47:38,637 - loginpage -INFO - Virtual Mechanic link status 
+2018-10-25 18:47:39,372 - loginpage -INFO - Map status
+2018-10-25 18:47:39,880 - loginpage -INFO - Current diagnostics 
+2018-10-25 18:47:44,012 - loginpage -INFO - Quit from portal
+2018-10-25 18:47:44,107 - loginpage -INFO - current diagnostics tab clickable
+2018-10-25 18:47:44,138 - loginpage -INFO - forgot link status
+2018-10-25 18:47:44,138 - loginpage -INFO - First_Trip_selected
+2018-10-25 18:47:44,154 - loginpage -INFO - Accident reports link status 
+2018-10-25 18:47:44,356 - loginpage -INFO - Login button status before entered user and passward
+2018-10-25 18:47:44,359 - loginpage -INFO - faultsandwarnings
+2018-10-25 18:47:44,399 - loginpage -INFO - Trips link status 
+2018-10-25 18:47:44,446 - loginpage -INFO - Trip start point
+2018-10-25 18:47:44,547 - loginpage -INFO - Trip start point
+2018-10-25 18:47:44,625 - loginpage -INFO - Distance Covered
+2018-10-25 18:47:44,703 - loginpage -INFO - Time taken
+2018-10-25 18:47:44,781 - loginpage -INFO - Last trip date
+2018-10-25 18:47:44,906 - loginpage -INFO - healthy areas
+2018-10-25 18:47:44,922 - loginpage -INFO - Family Share link status 
+2018-10-25 18:47:44,922 - loginpage -INFO - Seconond trip
+2018-10-25 18:47:44,937 - loginpage -INFO - signup link
+2018-10-25 18:47:45,078 - loginpage -INFO - Battery health displaying?
+2018-10-25 18:47:45,079 - loginpage -INFO - Time_Taken
+2018-10-25 18:47:45,079 - loginpage -INFO - Geofences link status 
+2018-10-25 18:47:45,157 - loginpage -INFO - enter username
+2018-10-25 18:47:45,286 - loginpage -INFO - enter password
+2018-10-25 18:47:45,316 - loginpage -INFO - login button status after enter credentials
+2018-10-25 18:47:47,305 - loginpage -INFO - Engine health displaying?
+2018-10-25 18:47:47,305 - loginpage -INFO - Last_Trip_Time_icon_display
+2018-10-25 18:47:47,306 - loginpage -INFO - Vehicle Preferences link status 
+2018-10-25 18:47:47,416 - loginpage -INFO - Electrical System health displaying
+2018-10-25 18:47:47,433 - loginpage -INFO - Last_trip_Distance_covered
+2018-10-25 18:47:47,458 - loginpage -INFO - Emergency Contact link status 
+2018-10-25 18:47:47,658 - loginpage -INFO - Account link status 
+2018-10-25 18:47:47,666 - loginpage -INFO - Gearbox displaying
+2018-10-25 18:47:47,678 - loginpage -INFO - Last_trip_Distance_covered_image
+2018-10-25 18:47:47,748 - loginpage -INFO - Auxilary health displaying
+2018-10-25 18:47:47,761 - loginpage -INFO - wifi button display status 
+2018-10-25 18:47:47,768 - loginpage -INFO - Last_trip_Fuel_consumption
+2018-10-25 18:47:57,896 - loginpage -INFO - diagnostics history
+2018-10-25 18:47:57,913 - loginpage -INFO - Last_trip_Fuel_consumption_icon_dispalying
+2018-10-25 18:47:57,913 - loginpage -INFO - battery_status_print 
+2018-10-25 18:47:57,998 - loginpage -INFO - history tab clickable
+2018-10-25 18:47:58,021 - loginpage -INFO - Virtualmechaniclink_mainscreen 
+2018-10-25 18:48:08,171 - loginpage -INFO - start point
+2018-10-25 18:48:08,234 - loginpage -INFO - Last_trip_hard_braking
+2018-10-25 18:48:08,269 - loginpage -INFO - Select Tab history
+2018-10-25 18:48:08,309 - loginpage -INFO - end point
+2018-10-25 18:48:08,402 - loginpage -INFO - history of faults text displaying
+2018-10-25 18:48:08,470 - loginpage -INFO - distance
+2018-10-25 18:48:08,597 - loginpage -INFO - Quit from portal
+2018-10-25 18:48:08,739 - loginpage -INFO - timetaken
+2018-10-25 18:48:08,833 - loginpage -INFO - Triphistorylink_Mainscreen
+2018-10-25 18:48:08,911 - loginpage -INFO - Last_trip_hard_corners
+2018-10-25 18:48:08,973 - loginpage -INFO - Manage_Familysharinglink_Mainscreen
+2018-10-25 18:48:09,020 - loginpage -INFO - Last_trip_hard_acceleration
+2018-10-25 18:48:09,067 - loginpage -INFO - Geofencelink_Mainscreen
+2018-10-25 18:48:09,114 - loginpage -INFO - Last_trip_Time_over_60_mph
+2018-10-25 18:48:09,176 - loginpage -INFO - Harmanspark_Version
+2018-10-25 18:48:09,177 - loginpage -INFO - Last_trip_Type
+2018-10-25 18:48:09,464 - loginpage -INFO - Map display status 
+2018-10-25 18:48:09,559 - loginpage -INFO - Vehicle_name
+2018-10-25 18:48:11,699 - loginpage -INFO - Quit from portal
+2018-10-25 18:53:40,783 - loginpage -INFO - Open browser
+2018-10-25 18:53:52,881 - loginpage -INFO - Open browser
+2018-10-25 18:53:52,950 - loginpage -INFO - Open browser
+2018-10-25 18:53:53,505 - loginpage -INFO - Open browser
+2018-10-25 18:53:53,980 - loginpage -INFO - Open browser
+2018-10-25 18:53:55,680 - loginpage -INFO - Going to Home Page
+2018-10-25 18:53:57,566 - loginpage -INFO - Going to Home Page
+2018-10-25 18:53:57,597 - loginpage -INFO - Going to Home Page
+2018-10-25 18:53:59,193 - loginpage -INFO - Going to Home Page
+2018-10-25 18:54:02,019 - loginpage -INFO - Going to Login Page
+2018-10-25 18:54:02,413 - loginpage -INFO - enter username
+2018-10-25 18:54:02,948 - loginpage -INFO - enter password
+2018-10-25 18:54:05,688 - loginpage -INFO - Going to Home Page
+2018-10-25 18:54:11,818 - loginpage -INFO - Going to Login Page
+2018-10-25 18:54:11,823 - loginpage -INFO - login button
+2018-10-25 18:54:12,069 - loginpage -INFO - enter username
+2018-10-25 18:54:12,152 - loginpage -INFO - Entering Login Page
+2018-10-25 18:54:12,344 - loginpage -INFO - enter password
+2018-10-25 18:54:12,822 - loginpage -INFO - Going to Login Page
+2018-10-25 18:54:13,103 - loginpage -INFO - Going to Login Page
+2018-10-25 18:54:13,190 - loginpage -INFO - list of links
+2018-10-25 18:54:13,315 - loginpage -INFO - enter username
+2018-10-25 18:54:13,678 - loginpage -INFO - enter password
+2018-10-25 18:54:14,030 - loginpage -INFO - login button
+2018-10-25 18:54:14,901 - loginpage -INFO - verify active link
+2018-10-25 18:54:14,944 - loginpage -INFO - login button
+2018-10-25 18:54:16,284 - loginpage -INFO - verify active link
+2018-10-25 18:54:17,127 - loginpage -INFO - verify active link
+2018-10-25 18:54:17,992 - loginpage -INFO - verify active link
+2018-10-25 18:54:18,650 - loginpage -INFO - list of links
+2018-10-25 18:54:18,948 - loginpage -INFO - Quit from portal
+2018-10-25 18:54:19,500 - loginpage -INFO - verify active link
+2018-10-25 18:54:19,937 - loginpage -INFO - verify active link
+2018-10-25 18:54:20,405 - loginpage -INFO - Harmanlogo display in main screen
+2018-10-25 18:54:20,428 - loginpage -INFO - verify active link
+2018-10-25 18:54:20,887 - loginpage -INFO - verify active link
+2018-10-25 18:54:21,407 - loginpage -INFO - verify active link
+2018-10-25 18:54:21,913 - loginpage -INFO - verify active link
+2018-10-25 18:54:22,378 - loginpage -INFO - verify active link
+2018-10-25 18:54:22,861 - loginpage -INFO - verify active link
+2018-10-25 18:54:23,615 - loginpage -INFO - verify active link
+2018-10-25 18:54:24,410 - loginpage -INFO - verify active link
+2018-10-25 18:54:24,988 - loginpage -INFO - verify active link
+2018-10-25 18:54:25,806 - loginpage -INFO - verify active link
+2018-10-25 18:54:26,318 - loginpage -INFO - verify active link
+2018-10-25 18:54:27,386 - loginpage -INFO - Quit from portal
+2018-10-25 18:54:27,538 - loginpage -INFO - Vehicle dashboard link status 
+2018-10-25 18:54:27,616 - loginpage -INFO - Harman logo visibility
+2018-10-25 18:54:27,737 - loginpage -INFO - click account button
+2018-10-25 18:54:28,663 - loginpage -INFO - click signout button
+2018-10-25 18:54:31,872 - loginpage -INFO - Open browser
+2018-10-25 18:54:32,603 - loginpage -INFO - Open browser
+2018-10-25 18:54:36,490 - loginpage -INFO - Going to Home Page
+2018-10-25 18:54:36,859 - loginpage -INFO - Going to Home Page
+2018-10-25 18:54:41,909 - loginpage -INFO - Going to Login Page
+2018-10-25 18:54:42,067 - loginpage -INFO - enter username
+2018-10-25 18:54:42,207 - loginpage -INFO - enter password
+2018-10-25 18:54:42,885 - loginpage -INFO - Going to Login Page
+2018-10-25 18:54:43,027 - loginpage -INFO - enter username
+2018-10-25 18:54:43,191 - loginpage -INFO - enter password
+2018-10-25 18:54:44,241 - loginpage -INFO - login button
+2018-10-25 18:54:44,620 - loginpage -INFO - login button
+2018-10-25 18:54:50,459 - loginpage -INFO - Trips link status 
+2018-10-25 18:54:50,569 - loginpage -INFO - Enter Trips 
+2018-10-25 18:54:50,986 - loginpage -INFO - Virtual Mechanic link status 
+2018-10-25 18:54:51,091 - loginpage -INFO - Enter virtual Mechanic
+2018-10-25 18:54:51,229 - loginpage -INFO - Virtual Mechanic link status 
+2018-10-25 18:54:51,246 - loginpage -INFO - harman text visibility
+2018-10-25 18:54:52,174 - loginpage -INFO - Current diagnostics 
+2018-10-25 18:54:53,402 - loginpage -INFO - Map status
+2018-10-25 18:54:54,948 - loginpage -INFO - Quit from portal
+2018-10-25 18:54:55,046 - loginpage -INFO - current diagnostics tab clickable
+2018-10-25 18:54:55,077 - loginpage -INFO - forgot link status
+2018-10-25 18:54:55,092 - loginpage -INFO - Accident reports link status 
+2018-10-25 18:54:55,092 - loginpage -INFO - First_Trip_selected
+2018-10-25 18:54:55,170 - loginpage -INFO - faultsandwarnings
+2018-10-25 18:54:55,202 - loginpage -INFO - Trips link status 
+2018-10-25 18:54:55,202 - loginpage -INFO - Login button status before entered user and passward
+2018-10-25 18:54:55,217 - loginpage -INFO - Trip start point
+2018-10-25 18:54:55,280 - loginpage -INFO - Trip start point
+2018-10-25 18:54:55,329 - loginpage -INFO - Distance Covered
+2018-10-25 18:54:55,407 - loginpage -INFO - Time taken
+2018-10-25 18:54:55,482 - loginpage -INFO - Last trip date
+2018-10-25 18:54:55,596 - loginpage -INFO - Seconond trip
+2018-10-25 18:54:55,596 - loginpage -INFO - healthy areas
+2018-10-25 18:54:55,627 - loginpage -INFO - signup link
+2018-10-25 18:54:55,627 - loginpage -INFO - Family Share link status 
+2018-10-25 18:54:55,736 - loginpage -INFO - Battery health displaying?
+2018-10-25 18:54:55,736 - loginpage -INFO - Geofences link status 
+2018-10-25 18:54:55,752 - loginpage -INFO - Time_Taken
+2018-10-25 18:54:55,838 - loginpage -INFO - enter username
+2018-10-25 18:54:55,957 - loginpage -INFO - enter password
+2018-10-25 18:54:55,993 - loginpage -INFO - login button status after enter credentials
+2018-10-25 18:54:58,033 - loginpage -INFO - Engine health displaying?
+2018-10-25 18:54:58,052 - loginpage -INFO - Last_Trip_Time_icon_display
+2018-10-25 18:54:58,052 - loginpage -INFO - Vehicle Preferences link status 
+2018-10-25 18:54:58,142 - loginpage -INFO - Electrical System health displaying
+2018-10-25 18:54:58,177 - loginpage -INFO - Emergency Contact link status 
+2018-10-25 18:54:58,232 - loginpage -INFO - Last_trip_Distance_covered
+2018-10-25 18:54:58,324 - loginpage -INFO - Gearbox displaying
+2018-10-25 18:54:58,339 - loginpage -INFO - Account link status 
+2018-10-25 18:54:58,349 - loginpage -INFO - Last_trip_Distance_covered_image
+2018-10-25 18:54:58,437 - loginpage -INFO - wifi button display status 
+2018-10-25 18:54:58,439 - loginpage -INFO - Auxilary health displaying
+2018-10-25 18:54:58,464 - loginpage -INFO - Last_trip_Fuel_consumption
+2018-10-25 18:54:58,592 - loginpage -INFO - diagnostics history
+2018-10-25 18:54:58,599 - loginpage -INFO - battery_status_print 
+2018-10-25 18:54:58,629 - loginpage -INFO - Last_trip_Fuel_consumption_icon_dispalying
+2018-10-25 18:54:58,709 - loginpage -INFO - history tab clickable
+2018-10-25 18:54:58,734 - loginpage -INFO - Virtualmechaniclink_mainscreen 
+2018-10-25 18:55:08,837 - loginpage -INFO - start point
+2018-10-25 18:55:08,889 - loginpage -INFO - Select Tab history
+2018-10-25 18:55:08,894 - loginpage -INFO - Last_trip_hard_braking
+2018-10-25 18:55:08,917 - loginpage -INFO - end point
+2018-10-25 18:55:08,954 - loginpage -INFO - history of faults text displaying
+2018-10-25 18:55:09,044 - loginpage -INFO - distance
+2018-10-25 18:55:09,122 - loginpage -INFO - timetaken
+2018-10-25 18:55:09,153 - loginpage -INFO - Quit from portal
+2018-10-25 18:55:09,247 - loginpage -INFO - Triphistorylink_Mainscreen
+2018-10-25 18:55:09,278 - loginpage -INFO - Last_trip_hard_corners
+2018-10-25 18:55:09,358 - loginpage -INFO - Manage_Familysharinglink_Mainscreen
+2018-10-25 18:55:09,405 - loginpage -INFO - Last_trip_hard_acceleration
+2018-10-25 18:55:09,457 - loginpage -INFO - Geofencelink_Mainscreen
+2018-10-25 18:55:09,506 - loginpage -INFO - Last_trip_Time_over_60_mph
+2018-10-25 18:55:09,621 - loginpage -INFO - Harmanspark_Version
+2018-10-25 18:55:09,626 - loginpage -INFO - Last_trip_Type
+2018-10-25 18:55:09,927 - loginpage -INFO - Map display status 
+2018-10-25 18:55:09,995 - loginpage -INFO - Vehicle_name
+2018-10-25 18:55:12,103 - loginpage -INFO - Quit from portal
+2018-11-12 19:59:01,746 - loginpage -INFO - Open browser
+2018-11-12 19:59:06,720 - loginpage -INFO - Going to Home Page
+2018-11-12 19:59:14,835 - loginpage -INFO - Entering Login Page
+2018-11-12 19:59:14,983 - loginpage -INFO - Harman logo visibility
+2018-11-12 19:59:35,120 - loginpage -INFO - harman text visibility
+2018-11-12 19:59:35,230 - loginpage -INFO - forgot link status
+2018-11-12 19:59:35,323 - loginpage -INFO - Login button status before entered user and passward
+2018-11-12 19:59:35,386 - loginpage -INFO - signup link
+2018-11-12 19:59:35,574 - loginpage -INFO - enter username
+2018-11-12 19:59:35,671 - loginpage -INFO - enter password
+2018-11-12 19:59:35,704 - loginpage -INFO - login button status after enter credentials
+2018-11-13 12:41:26,772 - loginpage -INFO - Open browser
+2018-11-13 12:41:31,906 - loginpage -INFO - Going to Home Page
+2018-11-13 12:41:40,534 - loginpage -INFO - Entering Login Page
+2018-11-13 12:41:40,619 - loginpage -INFO - Harman logo visibility
+2018-11-13 12:41:40,681 - loginpage -INFO - harman text visibility
+2018-11-13 12:41:40,743 - loginpage -INFO - forgot link status
+2018-11-13 12:41:40,820 - loginpage -INFO - Login button status before entered user and passward
+2018-11-13 12:41:40,967 - loginpage -INFO - signup link
+2018-11-13 12:41:41,093 - loginpage -INFO - enter username
+2018-11-13 12:41:41,200 - loginpage -INFO - enter password
+2018-11-13 12:41:41,233 - loginpage -INFO - login button status after enter credentials
+2018-11-13 12:42:17,818 - loginpage -INFO - Open browser
+2018-11-13 12:42:18,227 - loginpage -INFO - Open browser
+2018-11-13 12:42:18,673 - loginpage -INFO - Open browser
+2018-11-13 12:42:20,343 - loginpage -INFO - Open browser
+2018-11-13 12:42:20,574 - loginpage -INFO - Open browser
+2018-11-13 12:42:25,058 - loginpage -INFO - Going to Home Page
+2018-11-13 12:42:29,062 - loginpage -INFO - Going to Home Page
+2018-11-13 12:42:32,193 - loginpage -INFO - Going to Home Page
+2018-11-13 12:42:32,523 - loginpage -INFO - Going to Home Page
+2018-11-13 12:42:32,992 - loginpage -INFO - Going to Home Page
+2018-11-13 12:42:33,534 - loginpage -INFO - Going to Login Page
+2018-11-13 12:42:34,309 - loginpage -INFO - enter username
+2018-11-13 12:42:35,128 - loginpage -INFO - enter password
+2018-11-13 12:42:36,100 - loginpage -INFO - Going to Login Page
+2018-11-13 12:42:36,406 - loginpage -INFO - enter username
+2018-11-13 12:42:36,830 - loginpage -INFO - enter password
+2018-11-13 12:42:37,458 - loginpage -INFO - login button
+2018-11-13 12:42:38,359 - loginpage -INFO - Going to Login Page
+2018-11-13 12:42:38,427 - loginpage -INFO - Going to Login Page
+2018-11-13 12:42:38,475 - loginpage -INFO - list of links
+2018-11-13 12:42:38,969 - loginpage -INFO - Entering Login Page
+2018-11-13 12:42:39,117 - loginpage -INFO - enter username
+2018-11-13 12:42:39,434 - loginpage -INFO - login button
+2018-11-13 12:42:39,630 - loginpage -INFO - enter password
+2018-11-13 12:42:41,280 - loginpage -INFO - verify active link
+2018-11-13 12:42:41,708 - loginpage -INFO - login button
+2018-11-13 12:42:42,775 - loginpage -INFO - verify active link
+2018-11-13 12:42:43,516 - loginpage -INFO - verify active link
+2018-11-13 12:42:44,284 - loginpage -INFO - verify active link
+2018-11-13 12:42:44,567 - loginpage -INFO - Harmanlogo display in main screen
+2018-11-13 12:42:45,258 - loginpage -INFO - Quit from portal
+2018-11-13 12:42:45,389 - loginpage -INFO - list of links
+2018-11-13 12:42:46,506 - loginpage -INFO - verify active link
+2018-11-13 12:42:46,895 - loginpage -INFO - verify active link
+2018-11-13 12:42:47,418 - loginpage -INFO - verify active link
+2018-11-13 12:42:47,936 - loginpage -INFO - verify active link
+2018-11-13 12:42:48,438 - loginpage -INFO - verify active link
+2018-11-13 12:42:48,940 - loginpage -INFO - verify active link
+2018-11-13 12:42:49,369 - loginpage -INFO - verify active link
+2018-11-13 12:42:49,769 - loginpage -INFO - verify active link
+2018-11-13 12:42:50,507 - loginpage -INFO - verify active link
+2018-11-13 12:42:51,019 - loginpage -INFO - verify active link
+2018-11-13 12:42:51,718 - loginpage -INFO - verify active link
+2018-11-13 12:42:52,142 - loginpage -INFO - verify active link
+2018-11-13 12:42:52,695 - loginpage -INFO - verify active link
+2018-11-13 12:42:53,504 - loginpage -INFO - Quit from portal
+2018-11-13 12:42:53,628 - loginpage -INFO - Vehicle dashboard link status 
+2018-11-13 12:42:53,683 - loginpage -INFO - Harman logo visibility
+2018-11-13 12:42:53,804 - loginpage -INFO - click account button
+2018-11-13 12:42:55,378 - loginpage -INFO - click signout button
+2018-11-13 12:42:57,507 - loginpage -INFO - Open browser
+2018-11-13 12:43:01,320 - loginpage -INFO - Going to Home Page
+2018-11-13 12:43:06,553 - loginpage -INFO - Going to Login Page
+2018-11-13 12:43:06,712 - loginpage -INFO - enter username
+2018-11-13 12:43:06,850 - loginpage -INFO - enter password
+2018-11-13 12:43:08,420 - loginpage -INFO - login button
+2018-11-13 12:43:13,873 - loginpage -INFO - Virtual Mechanic link status 
+2018-11-13 12:43:13,979 - loginpage -INFO - Enter virtual Mechanic
+2018-11-13 12:43:54,508 - loginpage -INFO - Current diagnostics 
+2018-11-13 12:43:54,509 - loginpage -INFO - Virtual Mechanic link status 
+2018-11-13 12:43:54,560 - loginpage -INFO - harman text visibility
+2018-11-13 12:43:58,019 - loginpage -INFO - Quit from portal
+2018-11-13 12:43:58,108 - loginpage -INFO - current diagnostics tab clickable
+2018-11-13 12:43:58,127 - loginpage -INFO - forgot link status
+2018-11-13 12:43:58,137 - loginpage -INFO - Accident reports link status 
+2018-11-13 12:43:58,253 - loginpage -INFO - Trips link status 
+2018-11-13 12:43:58,266 - loginpage -INFO - faultsandwarnings
+2018-11-13 12:43:58,274 - loginpage -INFO - Login button status before entered user and passward
+2018-11-13 12:43:58,371 - loginpage -INFO - healthy areas
+2018-11-13 12:43:58,378 - loginpage -INFO - signup link
+2018-11-13 12:43:58,410 - loginpage -INFO - Family Share link status 
+2018-11-13 12:43:58,493 - loginpage -INFO - Battery health displaying?
+2018-11-13 12:43:58,515 - loginpage -INFO - Geofences link status 
+2018-11-13 12:43:58,630 - loginpage -INFO - enter username
+2018-11-13 12:43:58,748 - loginpage -INFO - enter password
+2018-11-13 12:43:58,783 - loginpage -INFO - login button status after enter credentials
+2018-11-13 12:44:00,649 - loginpage -INFO - Engine health displaying?
+2018-11-13 12:44:00,684 - loginpage -INFO - Vehicle Preferences link status 
+2018-11-13 12:44:00,784 - loginpage -INFO - Electrical System health displaying
+2018-11-13 12:44:00,809 - loginpage -INFO - Emergency Contact link status 
+2018-11-13 12:44:00,870 - loginpage -INFO - Account link status 
+2018-11-13 12:44:00,885 - loginpage -INFO - Gearbox displaying
+2018-11-13 12:44:00,961 - loginpage -INFO - Auxilary health displaying
+2018-11-13 12:44:00,963 - loginpage -INFO - wifi button display status 
+2018-11-13 12:44:01,024 - loginpage -INFO - diagnostics history
+2018-11-13 12:44:01,033 - loginpage -INFO - battery_status_print 
+2018-11-13 12:44:01,094 - loginpage -INFO - Virtualmechaniclink_mainscreen 
+2018-11-13 12:44:01,103 - loginpage -INFO - history tab clickable
+2018-11-13 12:44:01,191 - loginpage -INFO - start point
+2018-11-13 12:44:01,250 - loginpage -INFO - end point
+2018-11-13 12:44:01,256 - loginpage -INFO - Select Tab history
+2018-11-13 12:44:01,314 - loginpage -INFO - distance
+2018-11-13 12:44:01,327 - loginpage -INFO - history of faults text displaying
+2018-11-13 12:44:01,482 - loginpage -INFO - timetaken
+2018-11-13 12:44:03,633 - loginpage -INFO - Quit from portal
+2018-11-13 12:44:03,710 - loginpage -INFO - Triphistorylink_Mainscreen
+2018-11-13 12:44:03,770 - loginpage -INFO - Manage_Familysharinglink_Mainscreen
+2018-11-13 12:44:03,797 - loginpage -INFO - Geofencelink_Mainscreen
+2018-11-13 12:44:03,855 - loginpage -INFO - Harmanspark_Version
+2018-11-13 12:44:03,896 - loginpage -INFO - Map display status 
+2018-11-13 12:44:03,964 - loginpage -INFO - Vehicle_name
+2018-11-13 12:44:04,090 - loginpage -INFO - Quit from portal
+2018-11-13 12:56:37,455 - loginpage -INFO - Open browser
+2018-11-13 12:56:38,495 - loginpage -INFO - Open browser
+2018-11-13 12:56:40,165 - loginpage -INFO - Open browser
+2018-11-13 12:56:40,364 - loginpage -INFO - Open browser
+2018-11-13 12:56:40,769 - loginpage -INFO - Open browser
+2018-11-13 12:56:55,380 - loginpage -INFO - Going to Home Page
+2018-11-13 12:56:56,005 - loginpage -INFO - Going to Home Page
+2018-11-13 12:56:55,748 - loginpage -INFO - Going to Home Page
+2018-11-13 12:56:56,462 - loginpage -INFO - Going to Home Page
+2018-11-13 12:56:56,974 - loginpage -INFO - Going to Home Page
+2018-11-13 12:57:04,934 - loginpage -INFO - Going to Login Page
+2018-11-13 12:57:05,092 - loginpage -INFO - Going to Login Page
+2018-11-13 12:57:05,132 - loginpage -INFO - Entering Login Page
+2018-11-13 12:57:05,206 - loginpage -INFO - enter username
+2018-11-13 12:57:05,334 - loginpage -INFO - enter password
+2018-11-13 12:57:05,632 - loginpage -INFO - Going to Login Page
+2018-11-13 12:57:05,762 - loginpage -INFO - enter username
+2018-11-13 12:57:05,899 - loginpage -INFO - enter password
+2018-11-13 12:57:05,955 - loginpage -INFO - list of links
+2018-11-13 12:57:06,581 - loginpage -INFO - Going to Login Page
+2018-11-13 12:57:06,898 - loginpage -INFO - enter username
+2018-11-13 12:57:07,552 - loginpage -INFO - enter password
+2018-11-13 12:57:08,155 - loginpage -INFO - login button
+2018-11-13 12:57:08,444 - loginpage -INFO - verify active link
+2018-11-13 12:57:08,523 - loginpage -INFO - login button
+2018-11-13 12:57:09,309 - loginpage -INFO - login button
+2018-11-13 12:57:10,020 - loginpage -INFO - verify active link
+2018-11-13 12:57:10,793 - loginpage -INFO - verify active link
+2018-11-13 12:57:11,552 - loginpage -INFO - verify active link
+2018-11-13 12:57:12,661 - loginpage -INFO - Quit from portal
+2018-11-13 12:57:14,235 - loginpage -INFO - list of links
+2018-11-13 12:57:14,587 - loginpage -INFO - Harmanlogo display in main screen
+2018-11-13 12:57:15,536 - loginpage -INFO - verify active link
+2018-11-13 12:57:16,011 - loginpage -INFO - verify active link
+2018-11-13 12:57:16,768 - loginpage -INFO - verify active link
+2018-11-13 12:57:17,409 - loginpage -INFO - verify active link
+2018-11-13 12:57:18,182 - loginpage -INFO - verify active link
+2018-11-13 12:57:18,862 - loginpage -INFO - verify active link
+2018-11-13 12:57:19,358 - loginpage -INFO - verify active link
+2018-11-13 12:57:19,809 - loginpage -INFO - verify active link
+2018-11-13 12:57:20,375 - loginpage -INFO - verify active link
+2018-11-13 12:57:20,850 - loginpage -INFO - verify active link
+2018-11-13 12:57:21,519 - loginpage -INFO - verify active link
+2018-11-13 12:57:21,975 - loginpage -INFO - verify active link
+2018-11-13 12:57:22,365 - loginpage -INFO - verify active link
+2018-11-13 12:57:23,219 - loginpage -INFO - Quit from portal
+2018-11-13 12:57:23,391 - loginpage -INFO - Vehicle dashboard link status 
+2018-11-13 12:57:23,456 - loginpage -INFO - Harman logo visibility
+2018-11-13 12:57:23,627 - loginpage -INFO - click account button
+2018-11-13 12:57:24,545 - loginpage -INFO - click signout button
+2018-11-13 12:57:27,394 - loginpage -INFO - Open browser
+2018-11-13 12:57:28,589 - loginpage -INFO - Open browser
+2018-11-13 12:57:32,487 - loginpage -INFO - Going to Home Page
+2018-11-13 12:57:33,075 - loginpage -INFO - Going to Home Page
+2018-11-13 12:57:38,372 - loginpage -INFO - Going to Login Page
+2018-11-13 12:57:38,542 - loginpage -INFO - enter username
+2018-11-13 12:57:38,679 - loginpage -INFO - enter password
+2018-11-13 12:57:38,752 - loginpage -INFO - Going to Login Page
+2018-11-13 12:57:38,923 - loginpage -INFO - enter username
+2018-11-13 12:57:39,052 - loginpage -INFO - enter password
+2018-11-13 12:57:39,866 - loginpage -INFO - login button
+2018-11-13 12:57:40,466 - loginpage -INFO - login button
+2018-11-13 12:57:46,168 - loginpage -INFO - Trips link status 
+2018-11-13 12:57:46,296 - loginpage -INFO - Enter Trips 
+2018-11-13 12:57:47,197 - loginpage -INFO - Virtual Mechanic link status 
+2018-11-13 12:57:47,317 - loginpage -INFO - Enter virtual Mechanic
+2018-11-13 12:57:47,407 - loginpage -INFO - Virtual Mechanic link status 
+2018-11-13 12:57:47,500 - loginpage -INFO - harman text visibility
+2018-11-13 12:57:48,642 - loginpage -INFO - Current diagnostics 
+2018-11-13 12:57:49,210 - loginpage -INFO - Map status
+2018-11-13 12:57:50,524 - loginpage -INFO - Quit from portal
+2018-11-13 12:57:50,696 - loginpage -INFO - current diagnostics tab clickable
+2018-11-13 12:57:50,715 - loginpage -INFO - First_Trip_selected
+2018-11-13 12:57:50,720 - loginpage -INFO - Accident reports link status 
+2018-11-13 12:57:50,726 - loginpage -INFO - forgot link status
+2018-11-13 12:57:50,873 - loginpage -INFO - Trip start point
+2018-11-13 12:57:50,886 - loginpage -INFO - Trips link status 
+2018-11-13 12:57:50,879 - loginpage -INFO - faultsandwarnings
+2018-11-13 12:57:50,877 - loginpage -INFO - Login button status before entered user and passward
+2018-11-13 12:57:51,078 - loginpage -INFO - Trip start point
+2018-11-13 12:57:51,129 - loginpage -INFO - Distance Covered
+2018-11-13 12:57:51,179 - loginpage -INFO - Time taken
+2018-11-13 12:57:51,251 - loginpage -INFO - Last trip date
+2018-11-13 12:57:51,345 - loginpage -INFO - healthy areas
+2018-11-13 12:57:51,346 - loginpage -INFO - signup link
+2018-11-13 12:57:51,360 - loginpage -INFO - Family Share link status 
+2018-11-13 12:57:51,465 - loginpage -INFO - Seconond trip
+2018-11-13 12:57:51,620 - loginpage -INFO - Battery health displaying?
+2018-11-13 12:57:51,645 - loginpage -INFO - Geofences link status 
+2018-11-13 12:57:51,795 - loginpage -INFO - Time_Taken
+2018-11-13 12:57:51,809 - loginpage -INFO - enter username
+2018-11-13 12:57:51,914 - loginpage -INFO - enter password
+2018-11-13 12:57:51,950 - loginpage -INFO - login button status after enter credentials
+2018-11-13 12:57:54,280 - loginpage -INFO - Quit from portal
+2018-11-13 12:57:54,360 - loginpage -INFO - Engine health displaying?
+2018-11-13 12:57:54,376 - loginpage -INFO - Vehicle Preferences link status 
+2018-11-13 12:57:54,376 - loginpage -INFO - Last_Trip_Time_icon_display
+2018-11-13 12:57:54,469 - loginpage -INFO - Electrical System health displaying
+2018-11-13 12:57:54,485 - loginpage -INFO - Emergency Contact link status 
+2018-11-13 12:57:54,485 - loginpage -INFO - Last_trip_Distance_covered
+2018-11-13 12:57:54,563 - loginpage -INFO - Account link status 
+2018-11-13 12:57:54,563 - loginpage -INFO - Last_trip_Distance_covered_image
+2018-11-13 12:57:54,563 - loginpage -INFO - Gearbox displaying
+2018-11-13 12:57:54,641 - loginpage -INFO - wifi button display status 
+2018-11-13 12:57:54,641 - loginpage -INFO - Auxilary health displaying
+2018-11-13 12:57:54,657 - loginpage -INFO - Last_trip_Fuel_consumption
+2018-11-13 12:57:54,719 - loginpage -INFO - diagnostics history
+2018-11-13 12:57:54,735 - loginpage -INFO - Last_trip_Fuel_consumption_icon_dispalying
+2018-11-13 12:57:54,735 - loginpage -INFO - battery_status_print 
+2018-11-13 12:57:54,781 - loginpage -INFO - history tab clickable
+2018-11-13 12:57:54,797 - loginpage -INFO - Virtualmechaniclink_mainscreen 
+2018-11-13 12:57:54,828 - loginpage -INFO - Last_trip_Driver_score
+2018-11-13 12:57:54,906 - loginpage -INFO - start point
+2018-11-13 12:57:54,937 - loginpage -INFO - Last_trip_hard_braking
+2018-11-13 12:57:54,953 - loginpage -INFO - Select Tab history
+2018-11-13 12:57:54,980 - loginpage -INFO - end point
+2018-11-13 12:57:55,017 - loginpage -INFO - history of faults text displaying
+2018-11-13 12:57:55,034 - loginpage -INFO - distance
+2018-11-13 12:57:55,177 - loginpage -INFO - timetaken
+2018-11-13 12:57:55,795 - loginpage -INFO - Quit from portal
+2018-11-13 12:57:55,848 - loginpage -INFO - Triphistorylink_Mainscreen
+2018-11-13 12:57:55,887 - loginpage -INFO - Last_trip_hard_corners
+2018-11-13 12:57:55,945 - loginpage -INFO - Manage_Familysharinglink_Mainscreen
+2018-11-13 12:57:55,984 - loginpage -INFO - Last_trip_hard_acceleration
+2018-11-13 12:57:56,023 - loginpage -INFO - Geofencelink_Mainscreen
+2018-11-13 12:57:56,065 - loginpage -INFO - Last_trip_Time_over_60_mph
+2018-11-13 12:57:56,135 - loginpage -INFO - Harmanspark_Version
+2018-11-13 12:57:56,141 - loginpage -INFO - Last_trip_Type
+2018-11-13 12:57:57,084 - loginpage -INFO - Quit from portal
+2018-11-13 12:57:57,132 - loginpage -INFO - Map display status 
+2018-11-13 12:57:57,179 - loginpage -INFO - Vehicle_name
+2018-11-13 12:57:57,944 - loginpage -INFO - Quit from portal
+2018-11-13 15:00:50,045 - loginpage -INFO - Open browser
+2018-11-13 15:00:54,354 - loginpage -INFO - Going to Home Page
+2018-11-13 15:01:00,499 - loginpage -INFO - Going to Login Page
+2018-11-13 15:01:00,647 - loginpage -INFO - enter username
+2018-11-13 15:01:00,800 - loginpage -INFO - enter password
+2018-11-13 15:01:02,326 - loginpage -INFO - login button
+2018-11-13 15:01:08,617 - loginpage -INFO - click account button
+2018-11-13 15:01:09,537 - loginpage -INFO - click signout button
+2018-11-13 15:01:12,558 - loginpage -INFO - Quit from portal
+2018-11-13 15:05:05,277 - loginpage -INFO - Open browser
+2018-11-13 15:05:09,381 - loginpage -INFO - Going to Home Page
+2018-11-13 15:05:14,492 - loginpage -INFO - Entering Login Page
+2018-11-13 15:05:14,567 - loginpage -INFO - Harman logo visibility
+2018-11-13 15:05:14,624 - loginpage -INFO - harman text visibility
+2018-11-13 15:05:14,672 - loginpage -INFO - forgot link status
+2018-11-13 15:05:14,722 - loginpage -INFO - Login button status before entered user and passward
+2018-11-13 15:05:14,769 - loginpage -INFO - signup link
+2018-11-13 15:05:14,914 - loginpage -INFO - enter username
+2018-11-13 15:05:15,045 - loginpage -INFO - enter password
+2018-11-13 15:05:15,085 - loginpage -INFO - login button status after enter credentials
+2018-11-13 15:05:17,768 - loginpage -INFO - Quit from portal

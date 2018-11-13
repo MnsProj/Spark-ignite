@@ -117,7 +117,7 @@ public class loginpage {
 	@BeforeClass
 	public void before(){
 		PropertyConfigurator.configure("Log4j.properties");
-		System.setProperty("webdriver.chrome.driver", "D:/New folder/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "./chromedriver.exe");
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
 		options.addArguments("start-maximized"); // open Browser in maximized mode
@@ -138,8 +138,8 @@ public class loginpage {
 	@AfterClass
 	public void after(){
 		PropertyConfigurator.configure("Log4j.properties");
-		//driver.quit();
-		//Log.info("Quit from portal");
+		driver.quit();
+		Log.info("Quit from portal");
 		
 	}
 }

@@ -31,11 +31,11 @@ public class Geofencecreate {
 	  
 	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
-	  driver.findElement(By.id("username")).sendKeys("prod");
+	  driver.findElement(By.id("username")).sendKeys("nov12");
 	  Log.info("enter username");
 	  
 	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-	  driver.findElement(By.id("password")).sendKeys("ish@123");
+	  driver.findElement(By.id("password")).sendKeys("Test@123");
 	  Log.info("enter password");
 	  
 	  boolean loginbutton=driver.findElement(By.xpath(".//*[@id='loginForm']/div[6]/div[2]/button")).isEnabled();
@@ -78,7 +78,7 @@ public class Geofencecreate {
 	public void before(){
 	  	
 	  PropertyConfigurator.configure("Log4j.properties");
-		System.setProperty("webdriver.chrome.driver", "D:/New folder/chromedriver.exe");
+	  System.setProperty("webdriver.chrome.driver", "./chromedriver.exe");
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
 		options.addArguments("start-maximized"); // open Browser in maximized mode
