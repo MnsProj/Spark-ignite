@@ -1,6 +1,9 @@
 package Tests;
 
 import org.testng.annotations.Test;
+
+import junit.framework.Assert;
+
 import org.testng.annotations.BeforeClass;
 
 import java.io.IOException;
@@ -15,11 +18,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterClass;
 
-public class HomeScreen {
+public class Vehicle_dashboard {
 	public WebDriver driver;
 	public static Logger Log = Logger.getLogger("loginpage");
 	
-  @Test(priority = 0)
+  @Test(priority = 0,enabled =true,groups={"sanity"})
   public void Harmanlogo_Display_Mainscreen() {
 	  PropertyConfigurator.configure("Log4j.properties");
 	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -27,66 +30,66 @@ public class HomeScreen {
 	  System.out.println("Harmanlogo_Display_Mainscreen: "+harmanlogo);
 	  Log.info("Harmanlogo display in main screen");
   }
-  @Test(priority = 1)
+  @Test(priority = 1,enabled =true,groups={"sanity"})
   public void Vehicle_dashboard_link_status() {
 	  boolean dashboard=driver.findElement(By.linkText("Vehicle Dashboard")).isEnabled();
 	  System.out.println("Vehicle_dashboard_link_status: "+dashboard);
 	  Log.info("Vehicle dashboard link status ");
 	  }
-  @Test(priority = 2)
+  @Test(priority = 2,enabled =true,groups={"sanity"})
   public void Virtual_Mechanic_link_status() {
 	  boolean virtualmechanic=driver.findElement(By.linkText("Virtual Mechanic")).isEnabled();
 	  System.out.println("Virtual_Mechanic_link_status: "+virtualmechanic);
 	  Log.info("Virtual Mechanic link status ");
 	  }
   
-  @Test(priority = 3)
+  @Test(priority = 3,enabled =true,groups={"sanity"})
   public void Accident_Reports_link_status() {
 	  boolean accident=driver.findElement(By.linkText("Accident Reports")).isEnabled();
 	  System.out.println("Accident_Reports_link_status: "+accident);
 	  Log.info("Accident reports link status ");
 	  }
   
-  @Test(priority = 4)
+  @Test(priority = 4,enabled =true,groups={"sanity"})
   public void Trips_link_status() {
 	  boolean triplink=driver.findElement(By.linkText("Trips")).isEnabled();
 	  System.out.println("Trips_link_status: "+triplink);
 	  Log.info("Trips link status ");
 	  }
   
-  @Test(priority = 5)
+  @Test(priority = 5,enabled =true,groups={"sanity"})
   public void Family_Share_link_status() {
 	  boolean family=driver.findElement(By.linkText("Family Share")).isEnabled();
 	  System.out.println("Family_Share_link_status: "+family);
 	  Log.info("Family Share link status ");
 	  }
   
-  @Test(priority = 6)
+  @Test(priority = 6,enabled =true,groups={"sanity"})
   public void Geofences_link_status() {
 	  boolean geofencelink=driver.findElement(By.linkText("Geofences")).isEnabled();
 	  System.out.println("Geofences_link_status: "+geofencelink);
 	  Log.info("Geofences link status ");
 	  }
   
-  @Test(priority = 7)
+  @Test(priority = 7,enabled =true,groups={"sanity"})
   public void Vehicle_Preferences_link_status() {
 	  boolean vehiclepref=driver.findElement(By.linkText("Vehicle Preferences")).isEnabled();
 	  System.out.println("Vehicle_Preferences_link_status: "+vehiclepref);
 	  Log.info("Vehicle Preferences link status ");
 	  }
-  @Test(priority = 8)
+  @Test(priority = 8,enabled =true,groups={"sanity"})
   public void Emergency_Contact_link_status() {
 	  boolean emergency=driver.findElement(By.linkText("Emergency Contact")).isEnabled();
 	  System.out.println("Emergency_Contact_link_status: "+emergency);
 	  Log.info("Emergency Contact link status ");
 	  }
-  @Test(priority = 9)
+  @Test(priority = 9,enabled =true,groups={"sanity"})
   public void Account_link_status() {
 	  boolean Account=driver.findElement(By.xpath(".//button[@class='jss99 jss93 jss94 jss83']")).isEnabled();
 	  System.out.println("Account_link_status: "+Account);
 	  Log.info("Account link status ");
 	  }
-  @Test(priority = 10)
+  @Test(priority = 10,enabled =true,groups={"sanity"})
   public void wifi_button_display() {
 	  boolean wifi=driver.findElement(By.xpath(".//div[@class='jss121 jss124 jss128 jss130']")).isDisplayed();
 	  System.out.println("wifi_button_display: "+wifi);
@@ -97,14 +100,14 @@ public class HomeScreen {
 	  System.out.println("wifi status: "+Wifi1.getText());*/
 	  //Log.info("wifi status ");
 	  }
-  @Test(priority = 11)
+  @Test(priority = 11,enabled =true,groups={"sanity"})
   public void battery_status() {
 	  
 	  WebElement battery1=driver.findElement(By.xpath(".//*[@class='StatusWidgetWrapper']"));
 	  System.out.println("Battery status: "+battery1.getText());
 	  Log.info("battery_status_print ");
 	  }
-  @Test(priority = 12)
+  @Test(priority = 12,enabled =true,groups={"sanity"})
   public void Virtualmechanic_Mainscreen() {
 	  
 	  Boolean Virtualmechaniclink=driver.findElement(By.xpath(".//*[@class='blueText'][@href='/vehicle-health']")).isEnabled();
@@ -112,7 +115,7 @@ public class HomeScreen {
 	  Log.info("Virtualmechaniclink_mainscreen ");
 	  }
   
-  @Test(priority = 13)
+  @Test(priority = 13,enabled =true,groups={"sanity"})
   public void Last_trip_Mainscreen() {
 	  
 	  String startpoint=driver.findElement(By.xpath(".//*[@id='root']/div/div[3]/div[2]/div/div/div[3]/div[2]/div/div[2]/div/div[2]/div/ul/li/div/h3/div/span[1]")).getText();
@@ -132,7 +135,7 @@ public class HomeScreen {
 	  Log.info("timetaken");
 	  }
   
-  @Test(priority = 14)
+  @Test(priority = 14,enabled =true,groups={"sanity"})
   public void Triphistorylink_Mainscreen() {
 	  
 	  Boolean Triphistorylink=driver.findElement(By.xpath(".//*[@id='root']/div/div[3]/div[2]/div/div/div[3]/div[2]/div/div[2]/div/a")).isEnabled();
@@ -140,7 +143,7 @@ public class HomeScreen {
 	  Log.info("Triphistorylink_Mainscreen");
 	  
 	  }
-  @Test(priority = 15)
+  @Test(priority = 15,enabled =true,groups={"sanity"})
   public void Manage_Familysharinglink_Mainscreen() {
 	  
 	  Boolean Manage_Familysharinglink=driver.findElement(By.xpath(".//*[@id='root']/div/div[3]/div[2]/div/div/div[3]/div[2]/div/div[3]/div/a")).isEnabled();
@@ -149,7 +152,7 @@ public class HomeScreen {
 	  
 	  }
   
-  @Test(priority = 16)
+  @Test(priority = 16,enabled =true,groups={"sanity"})
   public void Geofencelink_Mainscreen() {
 	  
 	  Boolean Geofencelink=driver.findElement(By.xpath(".//*[@id='root']/div/div[3]/div[2]/div/div/div[3]/div[2]/div/div[3]/div/a")).isEnabled();
@@ -157,7 +160,7 @@ public class HomeScreen {
 	  Log.info("Geofencelink_Mainscreen");
 	  
 	  }
-  @Test(priority = 17)
+  @Test(priority = 17,enabled =true,groups={"sanity"})
   public void Harmanspark_Version_Mainscreen() {
 	  
 	  String Sparkversion=driver.findElement(By.xpath(".//*[@id='root']/div/div[3]/footer/div/p/span")).getText();
@@ -165,20 +168,20 @@ public class HomeScreen {
 	  Log.info("Harmanspark_Version");
 	  
 	  }
-  @Test(priority = 18)
+  @Test(priority = 18,enabled =true,groups={"sanity"})
   public void Map_display_status() {
 	  boolean map=driver.findElement(By.xpath(".//*[@id='root']/div/div[3]/div[2]/div/div/div[2]/div[2]/div/div/div[1]/div/div/div[1]/div[3]")).isDisplayed();
 	  System.out.println("Map_display: "+map);
 	  Log.info("Map display status ");
  	  }
-  @Test(priority = 19)
+  @Test(priority = 19,enabled =true,groups={"sanity"})
   public void Vehicle_name() {
 	  WebElement vehiclename=driver.findElement(By.xpath(".//*[@id='root']/div/div[3]/div[1]/div/div[1]/button"));
 	  System.out.println("Vehicle_name: "+vehiclename.getText());
 	  Log.info("Vehicle_name");
  	  }
   @BeforeClass
-  public void beforeClass() {
+  public void beforeClass() throws Exception {
 	  
 	  PropertyConfigurator.configure("Log4j.properties");
 	  System.setProperty("webdriver.chrome.driver", "./chromedriver.exe");
@@ -190,6 +193,8 @@ public class HomeScreen {
 		options.addArguments("--disable-gpu"); // applicable to windows os only
 		options.addArguments("--no-sandbox"); // Bypass OS security model
 		options.setExperimentalOption("useAutomationExtension", false);
+		options.setBinary("C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe");
+		//options.addArguments("--headless");
 		driver=new ChromeDriver(options);
 		Log.info("Open browser");
 		driver.manage().window().maximize();
@@ -212,12 +217,15 @@ public class HomeScreen {
 	    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);  		  
 	    driver.findElement(By.xpath(".//*[@id='loginForm']/div[6]/div[2]/button")).click();
 	    Log.info("login button");
+	    
+	    Thread.sleep(10000);
+	    Assert.assertEquals("https://portal.spark-telematics.us/dashboard",driver.getCurrentUrl() );
 	  
   }
 
   @AfterClass
   public void afterClass() throws IOException {
-	        driver.quit();
+	        driver.close();
 	        //Runtime.getRuntime().exec("taskkill /im chromedriver.exe /f");
 			Log.info("Quit from portal");
   }

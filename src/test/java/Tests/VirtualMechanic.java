@@ -20,7 +20,7 @@ public class VirtualMechanic {
 	public WebDriver driver;
 	public static Logger Log = Logger.getLogger("loginpage");
 	
-	@Test(priority = 1)
+	@Test(priority = 1,enabled=true,groups={"sanity"})
 	  public void Virtual_Mechanic_link_status() {
 		  PropertyConfigurator.configure("Log4j.properties");
 		  boolean virtualmechanic=driver.findElement(By.linkText("Virtual Mechanic")).isEnabled();
@@ -30,75 +30,75 @@ public class VirtualMechanic {
 		  driver.findElement(By.linkText("Virtual Mechanic")).click();
 		  Log.info("Enter virtual Mechanic");
 	}
-    @Test(priority = 2)
+    @Test(priority = 2,enabled=true,groups={"sanity"})
 		  public void Current_diagnostics_display() {  
 		  boolean currentdaig=driver.findElement(By.xpath(".//*[@id='root']/div/div[3]/div[2]/div/div/div/header/div/div/div/div/button[1]")).isDisplayed();
 		  System.out.println("current diagnostics displayed: "+currentdaig);
 		  Log.info("Current diagnostics ");
 		  }
-    @Test(priority = 3)
+    @Test(priority = 3,enabled=true,groups={"sanity"})
 		  public void Current_diagnostics_tab_clickable() { 	  
 		  boolean currentdaig1=driver.findElement(By.xpath(".//*[@id='root']/div/div[3]/div[2]/div/div/div/header/div/div/div/div/button[1]")).isEnabled();
 		  System.out.println("current diagnostics tab clickable: "+currentdaig1);
 		  Log.info("current diagnostics tab clickable");
 		  }	 
-    @Test(priority = 4)
+    @Test(priority = 4,enabled=true,groups={"sanity"})
 	  public void faults_and_warnings() {
 		  boolean faultsandwarnings=driver.findElement(By.xpath(".//*[@id='root']/div/div[3]/div[2]/div/div/div/div/div/div/div[1]/ul/p")).isDisplayed();
 		  System.out.println("faults and warnings: "+faultsandwarnings);
 		  Log.info("faultsandwarnings");
         }	
-    @Test(priority = 5)
+    @Test(priority = 5,enabled=true,groups={"sanity"})
 	  public void healthy_areas() {
 		  boolean healthyareas=driver.findElement(By.xpath(".//*[@id='root']/div/div[3]/div[2]/div/div/div/div/div/div/ul/p")).isDisplayed();
 		  System.out.println("healthy areas: "+healthyareas);
 		  Log.info("healthy areas");
     }
     
-    @Test(priority = 6)
+    @Test(priority = 6,enabled=true,groups={"sanity"})
 	  public void Battery_health_displaying() {
 		  boolean Battery=driver.findElement(By.xpath(".//*[@id='root']/div/div[3]/div[2]/div/div/div/div/div/div/ul/div[1]/li/div/h3/div")).isDisplayed();
 		  System.out.println("Battery health displaying?: "+Battery);
 		  Log.info("Battery health displaying?");
     }  
     
-    @Test(priority = 7)
+    @Test(priority = 7,enabled=true,groups={"sanity"})
 	  public void Engine_health_displaying() {
 		  boolean Engine=driver.findElement(By.xpath(".//*[@id='root']/div/div[3]/div[2]/div/div/div/div/div/div/ul/div[2]/li/div/h3/div")).isDisplayed();
 		  System.out.println("Engine health displaying?: "+Engine);
 		  Log.info("Engine health displaying?");
     }  
-    @Test(priority = 8)
+    @Test(priority = 8,enabled=true,groups={"sanity"})
 	  public void Electrical_System_health_displaying() {
 		  boolean Electrical=driver.findElement(By.xpath(".//*[@id='root']/div/div[3]/div[2]/div/div/div/div/div/div/ul/div[3]/li/div/h3/div")).isDisplayed();
 		  System.out.println("Electrical System health displaying?: "+Electrical);
 		  Log.info("Electrical System health displaying");
     }	  
-    @Test(priority = 9)
+    @Test(priority = 9,enabled=true,groups={"sanity"})
 		  public void Gearbox_health_displaying() {	  
 		  boolean Gearbox=driver.findElement(By.xpath(".//*[@id='root']/div/div[3]/div[2]/div/div/div/div/div/div/ul/div[4]/li/div/h3/div")).isDisplayed();
 		  System.out.println("Gearbox health displaying?: "+Gearbox);
 		  Log.info("Gearbox displaying");
     }
-    @Test(priority = 10)
+    @Test(priority = 10,enabled=true,groups={"sanity"})
 		  public void Auxilary_health_displaying() {	  
 		  boolean Auxilary=driver.findElement(By.xpath(".//*[@id='root']/div/div[3]/div[2]/div/div/div/div/div/div/ul/div[4]/li")).isDisplayed();
 		  System.out.println("Auxilary health displaying?: "+Auxilary);
 		  Log.info("Auxilary health displaying");
     }
-    @Test(priority = 11)
+    @Test(priority = 11,enabled=true,groups={"sanity"})
 		  public void history_displaying() {	  		 		  
 		  boolean history=driver.findElement(By.xpath(".//*[@id='root']/div/div[3]/div[2]/div/div/div/header/div/div/div/div/button[2]")).isDisplayed();
 		  System.out.println("history display: "+history);
 		  Log.info("diagnostics history");
     }
-    @Test(priority = 12)
+    @Test(priority = 12,enabled=true,groups={"sanity"})
 		  public void history_tab_clickable() {	  
 		  boolean history2=driver.findElement(By.xpath(".//*[@id='root']/div/div[3]/div[2]/div/div/div/header/div/div/div/div/button[2]")).isEnabled();
 		  System.out.println("history tab clickable: "+history2);
 		  Log.info("history tab clickable");
     }
-    @Test(priority = 13)
+    @Test(priority = 13,enabled=true,groups={"sanity"})
 		  public void history_of_faults_text_displaying() {
     	  driver.findElement(By.xpath(".//*[@id='root']/div/div[3]/div[2]/div/div/div/header/div/div/div/div/button[2]")).click();
     	  Log.info("Select Tab history");
@@ -121,6 +121,8 @@ public class VirtualMechanic {
 		options.addArguments("--disable-gpu"); // applicable to windows os only
 		options.addArguments("--no-sandbox"); // Bypass OS security model
 		options.setExperimentalOption("useAutomationExtension", false);
+		options.setBinary("C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe");
+		//options.addArguments("--headless");
 		driver=new ChromeDriver(options);
 		Log.info("Open browser");
 		driver.manage().window().maximize();
@@ -148,9 +150,8 @@ public class VirtualMechanic {
   
   @AfterClass
   public void afterClass() {
-	  driver.quit();
-	  
-		Log.info("Quit from portal");
+	  driver.close();
+	  Log.info("Quit from portal");
   }
 
 }

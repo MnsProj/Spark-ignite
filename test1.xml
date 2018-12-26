@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Parallel1 test suite" thread-count="1" preserve-order="false">
+  <test name="Sanity Test" >
+    <classes>
+    <class name="Tests.Geofencecreate"/>
+    </classes>
+ </test>
+</suite>

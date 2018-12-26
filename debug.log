@@ -18,3 +18,6 @@
 [1011/204520.158:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
 [1113/125756.411:ERROR:file_io_win.cc(170)] CreateFile C:\Users\MSAMAN~1\AppData\Local\Temp\scoped_dir8880_20513\Crashpad\reports\bdd11a13-fab7-4196-868b-ea7300335bb6.dmp: The system cannot find the path specified. (0x3)
 [1113/125756.423:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[1113/151238.096:ERROR:file_io_win.cc(170)] CreateFile C:\Users\MSAMAN~1\AppData\Local\Temp\scoped_dir12768_15020\Crashpad\reports\e895c013-c4f3-4a00-b020-38ba3a950c34.dmp: The system cannot find the path specified. (0x3)
+[1113/151238.101:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[1122/160535.219:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports

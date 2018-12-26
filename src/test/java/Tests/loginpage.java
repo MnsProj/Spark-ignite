@@ -125,6 +125,9 @@ public class loginpage {
 		options.addArguments("--disable-extensions"); // disabling extensions
 		options.addArguments("--disable-gpu"); // applicable to windows os only
 		options.addArguments("--no-sandbox"); // Bypass OS security model
+		options.setBinary("C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe");
+		options.setExperimentalOption("useAutomationExtension", false);
+		//options.addArguments("--headless");
 		driver=new ChromeDriver(options);
 		Log.info("Open browser");
 		driver.manage().window().maximize();
@@ -138,7 +141,7 @@ public class loginpage {
 	@AfterClass
 	public void after(){
 		PropertyConfigurator.configure("Log4j.properties");
-		driver.quit();
+		//driver.close();
 		Log.info("Quit from portal");
 		
 	}

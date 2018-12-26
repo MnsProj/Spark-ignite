@@ -1,6 +1,9 @@
 package Tests;
 
 import org.testng.annotations.Test;
+
+import junit.framework.Assert;
+
 import org.testng.annotations.BeforeClass;
 
 import java.net.HttpURLConnection;
@@ -23,11 +26,14 @@ public class Loginbrokenlinks {
 	public static Logger Log = Logger.getLogger("loginpage");
   
 	@Test
-  public void Broken_link_loginpage() {
+  public void Broken_link_loginpage() throws Exception {
 	  PropertyConfigurator.configure("Log4j.properties");
 	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	  driver.findElement(By.xpath(".//*[@id='root']/div/div[1]/div[1]/div/button")).click();
 	  Log.info("Going to Login Page");
+	  
+	  Thread.sleep(10000);
+	    Assert.assertEquals("https://portal.spark-telematics.us/dashboard",driver.getCurrentUrl() );
 	  
 	  List<WebElement> links=driver.findElements(By.tagName("a"));
 	  Log.info("list of links");
@@ -87,6 +93,9 @@ public class Loginbrokenlinks {
 		options.addArguments("--disable-extensions"); // disabling extensions
 		options.addArguments("--disable-gpu"); // applicable to windows os only
 		options.addArguments("--no-sandbox"); // Bypass OS security model
+		options.setBinary("C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe");
+		options.setExperimentalOption("useAutomationExtension", false);
+		//options.addArguments("--headless");
 		driver=new ChromeDriver(options);
 		Log.info("Open browser");
 		driver.manage().window().maximize();
@@ -98,7 +107,7 @@ public class Loginbrokenlinks {
   @AfterClass
   public void afterClass() {
 	  PropertyConfigurator.configure("Log4j.properties");
-		driver.quit();
+		driver.close();
 		Log.info("Quit from portal");
 		
    }

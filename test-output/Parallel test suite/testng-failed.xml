@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="7" guice-stage="DEVELOPMENT" name="Failed suite [Parallel test suite]" parallel="methods">
-  <test thread-count="7" name="Sanity Test(failed)" parallel="methods">
+<suite thread-count="8" guice-stage="DEVELOPMENT" name="Failed suite [Parallel test suite]" parallel="methods">
+  <test thread-count="8" name="Sanity Test1(failed)" parallel="methods">
     <classes>
       <class name="Tests.login_logout">
         <methods>
@@ -11,5 +11,17 @@
         </methods>
       </class> <!-- Tests.login_logout -->
     </classes>
-  </test> <!-- Sanity Test(failed) -->
+  </test> <!-- Sanity Test1(failed) -->
+  <test thread-count="8" name="Sanity Test2(failed)" parallel="methods">
+    <classes>
+      <class name="Tests.Geofencecreate">
+        <methods>
+          <include name="afterClass"/>
+          <include name="Create_Geofence"/>
+          <include name="Delete_Geofence"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- Tests.Geofencecreate -->
+    </classes>
+  </test> <!-- Sanity Test2(failed) -->
 </suite> <!-- Failed suite [Parallel test suite] -->

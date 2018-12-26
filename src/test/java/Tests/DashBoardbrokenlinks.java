@@ -1,6 +1,9 @@
 package Tests;
 
 import org.testng.annotations.Test;
+
+import junit.framework.Assert;
+
 import org.testng.annotations.BeforeClass;
 
 import java.net.HttpURLConnection;
@@ -74,7 +77,7 @@ public class DashBoardbrokenlinks {
 	  } 
   
   @BeforeClass
-  public void beforeClass() {
+  public void beforeClass() throws Exception {
 	  PropertyConfigurator.configure("Log4j.properties");
 	  System.setProperty("webdriver.chrome.driver", "./chromedriver.exe");
 		ChromeOptions options = new ChromeOptions();
@@ -84,6 +87,9 @@ public class DashBoardbrokenlinks {
 		options.addArguments("--disable-extensions"); // disabling extensions
 		options.addArguments("--disable-gpu"); // applicable to windows os only
 		options.addArguments("--no-sandbox"); // Bypass OS security model
+		options.setBinary("C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe");
+		options.setExperimentalOption("useAutomationExtension", false);
+		//options.addArguments("--headless");s
 		driver=new ChromeDriver(options);
 		Log.info("Open browser");
 		driver.manage().window().maximize();
@@ -96,23 +102,26 @@ public class DashBoardbrokenlinks {
   	    Log.info("Going to Login Page");
 		  
    	    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-	    driver.findElement(By.id("username")).sendKeys("Sept29");
+	    driver.findElement(By.id("username")).sendKeys("test60684");
 	    Log.info("enter username");
 		
  	    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
- 	    driver.findElement(By.id("password")).sendKeys("Infinity@1");
+ 	    driver.findElement(By.id("password")).sendKeys("Test@123");
 	    Log.info("enter password");
 		  
 	    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);  		  
 	    driver.findElement(By.xpath(".//*[@id='loginForm']/div[6]/div[2]/button")).click();
 	    Log.info("login button");
+	    
+	    Thread.sleep(10000);
+	    Assert.assertEquals("https://portal.spark-telematics.us/dashboard",driver.getCurrentUrl() );
   }
 
   @AfterClass
   public void afterClass() {
 	  
 	  PropertyConfigurator.configure("Log4j.properties");
-		driver.quit();
+		driver.close();
 		Log.info("Quit from portal");
   }
 //

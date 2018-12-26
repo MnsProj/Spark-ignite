@@ -1,49 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+<testng-results skipped="0" failed="0" ignored="0" total="20" passed="20">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18211" started-at="2018-11-13T09:34:59Z" finished-at="2018-11-13T09:35:17Z">
+  <suite name="Default suite" duration-ms="28317" started-at="2018-12-26T13:04:54Z" finished-at="2018-12-26T13:05:22Z">
     <groups>
+      <group name="sanity">
+        <method signature="Vehicle_dashboard.Accident_Reports_link_status()[pri:3, instance:Tests.Vehicle_dashboard@2df32bf7]" name="Accident_Reports_link_status" class="Tests.Vehicle_dashboard"/>
+        <method signature="Vehicle_dashboard.Account_link_status()[pri:9, instance:Tests.Vehicle_dashboard@2df32bf7]" name="Account_link_status" class="Tests.Vehicle_dashboard"/>
+        <method signature="Vehicle_dashboard.Emergency_Contact_link_status()[pri:8, instance:Tests.Vehicle_dashboard@2df32bf7]" name="Emergency_Contact_link_status" class="Tests.Vehicle_dashboard"/>
+        <method signature="Vehicle_dashboard.Family_Share_link_status()[pri:5, instance:Tests.Vehicle_dashboard@2df32bf7]" name="Family_Share_link_status" class="Tests.Vehicle_dashboard"/>
+        <method signature="Vehicle_dashboard.Geofencelink_Mainscreen()[pri:16, instance:Tests.Vehicle_dashboard@2df32bf7]" name="Geofencelink_Mainscreen" class="Tests.Vehicle_dashboard"/>
+        <method signature="Vehicle_dashboard.Geofences_link_status()[pri:6, instance:Tests.Vehicle_dashboard@2df32bf7]" name="Geofences_link_status" class="Tests.Vehicle_dashboard"/>
+        <method signature="Vehicle_dashboard.Harmanlogo_Display_Mainscreen()[pri:0, instance:Tests.Vehicle_dashboard@2df32bf7]" name="Harmanlogo_Display_Mainscreen" class="Tests.Vehicle_dashboard"/>
+        <method signature="Vehicle_dashboard.Harmanspark_Version_Mainscreen()[pri:17, instance:Tests.Vehicle_dashboard@2df32bf7]" name="Harmanspark_Version_Mainscreen" class="Tests.Vehicle_dashboard"/>
+        <method signature="Vehicle_dashboard.Last_trip_Mainscreen()[pri:13, instance:Tests.Vehicle_dashboard@2df32bf7]" name="Last_trip_Mainscreen" class="Tests.Vehicle_dashboard"/>
+        <method signature="Vehicle_dashboard.Manage_Familysharinglink_Mainscreen()[pri:15, instance:Tests.Vehicle_dashboard@2df32bf7]" name="Manage_Familysharinglink_Mainscreen" class="Tests.Vehicle_dashboard"/>
+        <method signature="Vehicle_dashboard.Map_display_status()[pri:18, instance:Tests.Vehicle_dashboard@2df32bf7]" name="Map_display_status" class="Tests.Vehicle_dashboard"/>
+        <method signature="Vehicle_dashboard.Triphistorylink_Mainscreen()[pri:14, instance:Tests.Vehicle_dashboard@2df32bf7]" name="Triphistorylink_Mainscreen" class="Tests.Vehicle_dashboard"/>
+        <method signature="Vehicle_dashboard.Trips_link_status()[pri:4, instance:Tests.Vehicle_dashboard@2df32bf7]" name="Trips_link_status" class="Tests.Vehicle_dashboard"/>
+        <method signature="Vehicle_dashboard.Vehicle_Preferences_link_status()[pri:7, instance:Tests.Vehicle_dashboard@2df32bf7]" name="Vehicle_Preferences_link_status" class="Tests.Vehicle_dashboard"/>
+        <method signature="Vehicle_dashboard.Vehicle_dashboard_link_status()[pri:1, instance:Tests.Vehicle_dashboard@2df32bf7]" name="Vehicle_dashboard_link_status" class="Tests.Vehicle_dashboard"/>
+        <method signature="Vehicle_dashboard.Vehicle_name()[pri:19, instance:Tests.Vehicle_dashboard@2df32bf7]" name="Vehicle_name" class="Tests.Vehicle_dashboard"/>
+        <method signature="Vehicle_dashboard.Virtual_Mechanic_link_status()[pri:2, instance:Tests.Vehicle_dashboard@2df32bf7]" name="Virtual_Mechanic_link_status" class="Tests.Vehicle_dashboard"/>
+        <method signature="Vehicle_dashboard.Virtualmechanic_Mainscreen()[pri:12, instance:Tests.Vehicle_dashboard@2df32bf7]" name="Virtualmechanic_Mainscreen" class="Tests.Vehicle_dashboard"/>
+        <method signature="Vehicle_dashboard.battery_status()[pri:11, instance:Tests.Vehicle_dashboard@2df32bf7]" name="battery_status" class="Tests.Vehicle_dashboard"/>
+        <method signature="Vehicle_dashboard.wifi_button_display()[pri:10, instance:Tests.Vehicle_dashboard@2df32bf7]" name="wifi_button_display" class="Tests.Vehicle_dashboard"/>
+      </group> <!-- sanity -->
     </groups>
-    <test name="Default test" duration-ms="18211" started-at="2018-11-13T09:34:59Z" finished-at="2018-11-13T09:35:17Z">
-      <class name="Tests.loginpage">
-        <test-method status="PASS" signature="before()[pri:0, instance:Tests.loginpage@727803de]" name="before" is-config="true" duration-ms="9806" started-at="2018-11-13T09:34:59Z" finished-at="2018-11-13T09:35:09Z">
+    <test name="Default test" duration-ms="28317" started-at="2018-12-26T13:04:54Z" finished-at="2018-12-26T13:05:22Z">
+      <class name="Tests.Vehicle_dashboard">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Tests.Vehicle_dashboard@2df32bf7]" name="beforeClass" is-config="true" duration-ms="26792" started-at="2018-12-26T13:04:54Z" finished-at="2018-12-26T13:05:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="Entering_Login_Page()[pri:0, instance:Tests.loginpage@727803de]" name="Entering_Login_Page" duration-ms="5094" started-at="2018-11-13T09:35:09Z" finished-at="2018-11-13T09:35:14Z">
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="Harmanlogo_Display_Mainscreen()[pri:0, instance:Tests.Vehicle_dashboard@2df32bf7]" name="Harmanlogo_Display_Mainscreen" duration-ms="106" started-at="2018-12-26T13:05:20Z" finished-at="2018-12-26T13:05:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Entering_Login_Page -->
-        <test-method status="PASS" signature="Harman_logo_visibility()[pri:1, instance:Tests.loginpage@727803de]" name="Harman_logo_visibility" duration-ms="69" started-at="2018-11-13T09:35:14Z" finished-at="2018-11-13T09:35:14Z">
+        </test-method> <!-- Harmanlogo_Display_Mainscreen -->
+        <test-method status="PASS" signature="Vehicle_dashboard_link_status()[pri:1, instance:Tests.Vehicle_dashboard@2df32bf7]" name="Vehicle_dashboard_link_status" duration-ms="78" started-at="2018-12-26T13:05:21Z" finished-at="2018-12-26T13:05:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Harman_logo_visibility -->
-        <test-method status="PASS" signature="Harman_Text_visibility()[pri:2, instance:Tests.loginpage@727803de]" name="Harman_Text_visibility" duration-ms="54" started-at="2018-11-13T09:35:14Z" finished-at="2018-11-13T09:35:14Z">
+        </test-method> <!-- Vehicle_dashboard_link_status -->
+        <test-method status="PASS" signature="Virtual_Mechanic_link_status()[pri:2, instance:Tests.Vehicle_dashboard@2df32bf7]" name="Virtual_Mechanic_link_status" duration-ms="63" started-at="2018-12-26T13:05:21Z" finished-at="2018-12-26T13:05:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Harman_Text_visibility -->
-        <test-method status="PASS" signature="Forgot_Password_link_Status()[pri:3, instance:Tests.loginpage@727803de]" name="Forgot_Password_link_Status" duration-ms="47" started-at="2018-11-13T09:35:14Z" finished-at="2018-11-13T09:35:14Z">
+        </test-method> <!-- Virtual_Mechanic_link_status -->
+        <test-method status="PASS" signature="Accident_Reports_link_status()[pri:3, instance:Tests.Vehicle_dashboard@2df32bf7]" name="Accident_Reports_link_status" duration-ms="56" started-at="2018-12-26T13:05:21Z" finished-at="2018-12-26T13:05:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Forgot_Password_link_Status -->
-        <test-method status="PASS" signature="Loginbutton_status_before_Enter_user_pwd()[pri:4, instance:Tests.loginpage@727803de]" name="Loginbutton_status_before_Enter_user_pwd" duration-ms="47" started-at="2018-11-13T09:35:14Z" finished-at="2018-11-13T09:35:14Z">
+        </test-method> <!-- Accident_Reports_link_status -->
+        <test-method status="PASS" signature="Trips_link_status()[pri:4, instance:Tests.Vehicle_dashboard@2df32bf7]" name="Trips_link_status" duration-ms="63" started-at="2018-12-26T13:05:21Z" finished-at="2018-12-26T13:05:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Loginbutton_status_before_Enter_user_pwd -->
-        <test-method status="PASS" signature="Signup_link_status()[pri:5, instance:Tests.loginpage@727803de]" name="Signup_link_status" duration-ms="46" started-at="2018-11-13T09:35:14Z" finished-at="2018-11-13T09:35:14Z">
+        </test-method> <!-- Trips_link_status -->
+        <test-method status="PASS" signature="Family_Share_link_status()[pri:5, instance:Tests.Vehicle_dashboard@2df32bf7]" name="Family_Share_link_status" duration-ms="46" started-at="2018-12-26T13:05:21Z" finished-at="2018-12-26T13:05:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Signup_link_status -->
-        <test-method status="PASS" signature="Login_validation()[pri:6, instance:Tests.loginpage@727803de]" name="Login_validation" duration-ms="1790" started-at="2018-11-13T09:35:14Z" finished-at="2018-11-13T09:35:16Z">
+        </test-method> <!-- Family_Share_link_status -->
+        <test-method status="PASS" signature="Geofences_link_status()[pri:6, instance:Tests.Vehicle_dashboard@2df32bf7]" name="Geofences_link_status" duration-ms="78" started-at="2018-12-26T13:05:21Z" finished-at="2018-12-26T13:05:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login_validation -->
-        <test-method status="PASS" signature="after()[pri:0, instance:Tests.loginpage@727803de]" name="after" is-config="true" duration-ms="1206" started-at="2018-11-13T09:35:16Z" finished-at="2018-11-13T09:35:17Z">
+        </test-method> <!-- Geofences_link_status -->
+        <test-method status="PASS" signature="Vehicle_Preferences_link_status()[pri:7, instance:Tests.Vehicle_dashboard@2df32bf7]" name="Vehicle_Preferences_link_status" duration-ms="63" started-at="2018-12-26T13:05:21Z" finished-at="2018-12-26T13:05:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- after -->
-      </class> <!-- Tests.loginpage -->
+        </test-method> <!-- Vehicle_Preferences_link_status -->
+        <test-method status="PASS" signature="Emergency_Contact_link_status()[pri:8, instance:Tests.Vehicle_dashboard@2df32bf7]" name="Emergency_Contact_link_status" duration-ms="78" started-at="2018-12-26T13:05:21Z" finished-at="2018-12-26T13:05:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Emergency_Contact_link_status -->
+        <test-method status="PASS" signature="Account_link_status()[pri:9, instance:Tests.Vehicle_dashboard@2df32bf7]" name="Account_link_status" duration-ms="47" started-at="2018-12-26T13:05:21Z" finished-at="2018-12-26T13:05:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Account_link_status -->
+        <test-method status="PASS" signature="wifi_button_display()[pri:10, instance:Tests.Vehicle_dashboard@2df32bf7]" name="wifi_button_display" duration-ms="46" started-at="2018-12-26T13:05:21Z" finished-at="2018-12-26T13:05:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wifi_button_display -->
+        <test-method status="PASS" signature="battery_status()[pri:11, instance:Tests.Vehicle_dashboard@2df32bf7]" name="battery_status" duration-ms="63" started-at="2018-12-26T13:05:21Z" finished-at="2018-12-26T13:05:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- battery_status -->
+        <test-method status="PASS" signature="Virtualmechanic_Mainscreen()[pri:12, instance:Tests.Vehicle_dashboard@2df32bf7]" name="Virtualmechanic_Mainscreen" duration-ms="47" started-at="2018-12-26T13:05:21Z" finished-at="2018-12-26T13:05:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Virtualmechanic_Mainscreen -->
+        <test-method status="PASS" signature="Last_trip_Mainscreen()[pri:13, instance:Tests.Vehicle_dashboard@2df32bf7]" name="Last_trip_Mainscreen" duration-ms="206" started-at="2018-12-26T13:05:21Z" finished-at="2018-12-26T13:05:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Last_trip_Mainscreen -->
+        <test-method status="PASS" signature="Triphistorylink_Mainscreen()[pri:14, instance:Tests.Vehicle_dashboard@2df32bf7]" name="Triphistorylink_Mainscreen" duration-ms="33" started-at="2018-12-26T13:05:21Z" finished-at="2018-12-26T13:05:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Triphistorylink_Mainscreen -->
+        <test-method status="PASS" signature="Manage_Familysharinglink_Mainscreen()[pri:15, instance:Tests.Vehicle_dashboard@2df32bf7]" name="Manage_Familysharinglink_Mainscreen" duration-ms="62" started-at="2018-12-26T13:05:21Z" finished-at="2018-12-26T13:05:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Manage_Familysharinglink_Mainscreen -->
+        <test-method status="PASS" signature="Geofencelink_Mainscreen()[pri:16, instance:Tests.Vehicle_dashboard@2df32bf7]" name="Geofencelink_Mainscreen" duration-ms="32" started-at="2018-12-26T13:05:22Z" finished-at="2018-12-26T13:05:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Geofencelink_Mainscreen -->
+        <test-method status="PASS" signature="Harmanspark_Version_Mainscreen()[pri:17, instance:Tests.Vehicle_dashboard@2df32bf7]" name="Harmanspark_Version_Mainscreen" duration-ms="47" started-at="2018-12-26T13:05:22Z" finished-at="2018-12-26T13:05:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Harmanspark_Version_Mainscreen -->
+        <test-method status="PASS" signature="Map_display_status()[pri:18, instance:Tests.Vehicle_dashboard@2df32bf7]" name="Map_display_status" duration-ms="47" started-at="2018-12-26T13:05:22Z" finished-at="2018-12-26T13:05:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Map_display_status -->
+        <test-method status="PASS" signature="Vehicle_name()[pri:19, instance:Tests.Vehicle_dashboard@2df32bf7]" name="Vehicle_name" duration-ms="62" started-at="2018-12-26T13:05:22Z" finished-at="2018-12-26T13:05:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vehicle_name -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Tests.Vehicle_dashboard@2df32bf7]" name="afterClass" is-config="true" duration-ms="156" started-at="2018-12-26T13:05:22Z" finished-at="2018-12-26T13:05:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Tests.Vehicle_dashboard -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

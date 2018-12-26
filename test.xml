@@ -1,19 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Parallel test suite" parallel="methods" thread-count="7" preserve-order="false">
-  <test name="Sanity Test" >
+<suite name="Parallel test suite" parallel="methods" thread-count="8" preserve-order="false">
+  <test name="Sanity Test1" >
     <classes>
+    	
+       
        <class name="Tests.login_logout"/>
-       <class name="Tests.loginpage"/>
        <class name="Tests.Loginbrokenlinks"/>
        <class name="Tests.DashBoardbrokenlinks"/>
-        <class name="Tests.HomeScreen"/>
+       <class name="Tests.Vehicle_dashboard"/>
        <class name="Tests.VirtualMechanic"/>
        <class name="Tests.Trips"/>
-      
+       <class name="Tests.Vehicle_Preference"/>
        
        
-      
+       
+      </classes>
+ </test>
+ <test name="Sanity Test2" >
+    <classes>
+    <class name="Tests.Validate_login"/>
+    <class name="Tests.Geofencecreate"/>
+    <class name="Tests.Emergency"/>
     </classes>
  </test>
 </suite>
+
+  

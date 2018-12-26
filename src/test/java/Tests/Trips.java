@@ -1,11 +1,8 @@
 package Tests;
 
 import org.testng.annotations.Test;
-
 import org.testng.annotations.BeforeClass;
-
 import java.util.concurrent.TimeUnit;
-
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
@@ -13,6 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 
 public class Trips {
@@ -21,7 +19,7 @@ public class Trips {
 	public static Logger Log = Logger.getLogger("loginpage");
 	
 	
-	@Test(priority = 1)
+	@Test(priority = 1,enabled=true,groups={"sanity"})
 	  public void Trips_link_status() {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		  boolean triplink=driver.findElement(By.linkText("Trips")).isEnabled();
@@ -31,21 +29,21 @@ public class Trips {
 		  driver.findElement(By.linkText("Trips")).click();
 		  Log.info("Enter Trips ");
 		  }
-	@Test(priority = 2)
+	@Test(priority = 2,enabled=true,groups={"sanity"})
 	  public void Map_status() {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		  boolean Mapstatus=driver.findElement(By.xpath(".//div[@class='gm-style']/div[1]")).isDisplayed();
 		  System.out.println("Map status: "+Mapstatus);
 		  Log.info("Map status");
 		  }
-	@Test(priority = 3)
+	@Test(priority = 3,enabled=true,groups={"sanity"})
 	  public void First_Trip_selected() {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		boolean Tripselectable=driver.findElement(By.xpath(".//*[@class='jss121 jss124 jss128 tripListItem active']")).isEnabled();
 		  System.out.println("First_Trip_selected: "+Tripselectable);
 		  Log.info("First_Trip_selected");
 	}
-    @Test(priority = 4)
+    @Test(priority = 4,enabled=true,groups={"sanity"})
 		  public void Last_Trip_details() {
     	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			WebElement Tripstartpoint=driver.findElement(By.xpath(".//*[@id='tripListPadding']/div/ul/div[1]/li/div/h3/div/span[1]"));
@@ -70,7 +68,7 @@ public class Trips {
 				  Log.info("Last trip date");	
 						  
 	}
-    @Test(priority = 5)
+    @Test(priority = 5,enabled=true,groups={"sanity"})
 	  public void Select_secondTrip() {
     	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     	Boolean Seconondtrip=driver.findElement(By.xpath(".//*[@id='tripListPadding']/div/ul/div[2]/li")).isEnabled();  
@@ -78,42 +76,42 @@ public class Trips {
 		  Log.info("Seconond trip");
     }
     
-    @Test(priority = 6)
+    @Test(priority = 6,enabled=true,groups={"sanity"})
 	  public void Last_Trip_Time_Taken() {
     	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     	WebElement Time_Taken=driver.findElement(By.xpath(".//*[@id='tripDetailsPadding']/div/div[2]/div[1]/div[1]/div[1]"));  
   	  	System.out.println("Last_trip_Time_Taken: "+Time_Taken.getText());
 		  Log.info("Time_Taken");
   }
-    @Test(priority = 7)
+    @Test(priority = 7,enabled=true,groups={"sanity"})
 	  public void Last_Trip_Time_icon_display() {
     	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
   	Boolean Last_Trip_Time_image=driver.findElement(By.xpath(".//*[@id='tripDetailsPadding']/div/div[2]/div[1]/div[1]/img")).isDisplayed();  
 	  	System.out.println("Last_Trip_Time_icon_display: "+Last_Trip_Time_image);
 		  Log.info("Last_Trip_Time_icon_display");
     }
-    @Test(priority = 8)
+    @Test(priority = 8,enabled=true,groups={"sanity"})
 	  public void Last_trip_Distance_covered() {
     	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
   	WebElement Distance_covered=driver.findElement(By.xpath(".//*[@id='tripDetailsPadding']/div/div[2]/div[1]/div[2]/div[1]"));  
 	  	System.out.println("Last_trip_Distance_covered: "+Distance_covered.getText());
 		  Log.info("Last_trip_Distance_covered");
 }
-    @Test(priority = 9)
+    @Test(priority = 9,enabled=true,groups={"sanity"})
 	  public void Last_trip_Distance_covered_icon() {
     	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	Boolean Distance_covered_image=driver.findElement(By.xpath(".//*[@id='tripDetailsPadding']/div/div[2]/div[1]/div[2]/div[1]")).isDisplayed();  
 	  	System.out.println("Distance_covered image: "+Distance_covered_image);
 		  Log.info("Last_trip_Distance_covered_image");
 }
-    @Test(priority = 10)
+    @Test(priority = 10,enabled=true,groups={"sanity"})
 	  public void Last_trip_Fuel_consumption() {
     	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     	WebElement Fuel_consumption=driver.findElement(By.xpath(".//*[@id='tripDetailsPadding']/div/div[2]/div[1]/div[3]/div[1]"));  
 	  	System.out.println("Last_trip_Fuel_consumption: "+Fuel_consumption.getText());
 		  Log.info("Last_trip_Fuel_consumption");
 }
-    @Test(priority = 11)
+    @Test(priority = 11,enabled=true,groups={"sanity"})
 	  public void Last_trip_Fuel_consumption_icon() throws Exception {
     	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	Boolean Fuel_consumption_image=driver.findElement(By.xpath(".//*[@id='tripDetailsPadding']/div/div[2]/div[1]/div[3]/img")).isDisplayed();  
@@ -121,7 +119,7 @@ public class Trips {
 		  Log.info("Last_trip_Fuel_consumption_icon_dispalying");
 }
     
-    @Test(priority = 12)
+    @Test(priority = 12,enabled=true,groups={"sanity"})
 	  public void Last_trip_Driver_score()  {
     	
 			
@@ -142,7 +140,7 @@ public class Trips {
 		}
 			
 
-    @Test(priority = 13)
+    @Test(priority = 13,enabled=true,groups={"sanity"})
 	  public void Last_trip_hard_braking() {
     		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     		WebElement Last_trip_hard_braking=driver.findElement(By.xpath(".//*[@id='tripDetailsPadding']/div/div[2]/div[2]/div[1]/span"));
@@ -153,7 +151,7 @@ public class Trips {
 	  	System.out.println("Last_trip_hard_braking "+Last_trip_hard_braking.getText());
 		  Log.info("Last_trip_hard_braking");
 }
-    @Test(priority = 14)
+    @Test(priority = 14,enabled=true,groups={"sanity"})
 	  public void Last_trip_hard_corners() {
     	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     		WebElement Last_trip_hard_corners=driver.findElement(By.xpath(".//*[@id='tripDetailsPadding']/div/div[2]/div[2]/div[2]/span"));
@@ -164,7 +162,7 @@ public class Trips {
 	  	System.out.println("Last_trip_hard_corners "+Last_trip_hard_corners.getText());
 		  Log.info("Last_trip_hard_corners");
 }
-    @Test(priority = 15)
+    @Test(priority = 15,enabled=true,groups={"sanity"})
 	  public void Last_trip_hard_acceleration() {
     	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	WebElement Last_trip_hard_acceleration=driver.findElement(By.xpath(".//*[@id='tripDetailsPadding']/div/div[2]/div[2]/div[3]/span")); 
@@ -174,7 +172,7 @@ public class Trips {
 	  	System.out.println("Last_trip_hard_corners "+Last_trip_hard_acceleration.getText());
 		  Log.info("Last_trip_hard_acceleration");
 }
-    @Test(priority = 16)
+    @Test(priority = 16,enabled=true,groups={"sanity"})
 	  public void Last_trip_Time_over_60_mph() {
     	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	WebElement Last_trip_Time_over_60_mph=driver.findElement(By.xpath(".//*[@id='tripDetailsPadding']/div/div[2]/div[2]/div[4]/span")); 
@@ -184,7 +182,7 @@ public class Trips {
 	  	System.out.println("Last_trip_Time_over_60_mph "+Last_trip_Time_over_60_mph.getText());
 		  Log.info("Last_trip_Time_over_60_mph");
 }
-    @Test(priority = 17)
+    @Test(priority = 17,enabled=true,groups={"sanity"})
 	  public void Last_trip_Type() {
     	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);													
     	WebElement Last_trip_Type=driver.findElement(By.xpath(".//*[@id='tripDetailsPadding']/div/div[2]/div[3]/div/form/div/div/div/div"));
@@ -204,7 +202,7 @@ public class Trips {
 		  
 			}    
   @BeforeClass
-  public void beforeClass() {
+  public void beforeClass() throws Exception {
 	  PropertyConfigurator.configure("Log4j.properties");
 	  System.setProperty("webdriver.chrome.driver", "./chromedriver.exe");
 		ChromeOptions options = new ChromeOptions();
@@ -216,6 +214,8 @@ public class Trips {
 		options.addArguments("--no-sandbox"); // Bypass OS security model
 		//options.addArguments("--headless");
 		options.setExperimentalOption("useAutomationExtension", false);
+		options.setBinary("C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe");
+		//options.addArguments("--headless");
 		driver=new ChromeDriver(options);
 		Log.info("Open browser");
 		driver.manage().window().maximize();
@@ -239,15 +239,16 @@ public class Trips {
 	    driver.findElement(By.xpath(".//*[@id='loginForm']/div[6]/div[2]/button")).click();
 	    Log.info("login button");
 	  
-	  
+	    Thread.sleep(10000);
+	    Assert.assertEquals("https://portal.spark-telematics.us/dashboard",driver.getCurrentUrl() );
 }
 	  
   
 
   @AfterClass
   public void afterClass() {
-	 driver.quit();
-	Log.info("Quit from portal");
+	 driver.close();
+	 Log.info("Quit from portal");
   }
 
 }

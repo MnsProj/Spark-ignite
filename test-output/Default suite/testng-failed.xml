@@ -3,19 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.loginpage">
+      <class name="Tests.login_logout">
         <methods>
-          <include name="Entering_Login_Page"/>
-          <include name="before"/>
-          <include name="after"/>
-          <include name="Harman_Text_visibility"/>
-          <include name="Login_validation"/>
-          <include name="Loginbutton_status_before_Enter_user_pwd"/>
-          <include name="Harman_logo_visibility"/>
-          <include name="Signup_link_status"/>
-          <include name="Forgot_Password_link_Status"/>
+          <include name="AfterLogout_click_getstarted"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
         </methods>
-      </class> <!-- Tests.loginpage -->
+      </class> <!-- Tests.login_logout -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
